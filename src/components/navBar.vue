@@ -6,9 +6,9 @@
     <div
       class="text-[90%] w-full container mx-auto flex flex-wrap justify-start mt-0 py-2"
     >
-      <div class="pl-4 flex">
+      <div class="w-[70%] sm:w-auto pl-4 flex">
         <a
-          class="toggleColour text-blue-900 no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
+          class="toggleColour text-blue-900 no-underline hover:no-underline font-bold text-2xl sm:text-4xl"
           href="#"
         >
           <!--Icon from: http://www.potlabicons.com/ -->
@@ -16,27 +16,37 @@
         </a>
       </div>
 
-      <div class="block lg:hidden pr-4" @click="showNavContent()">
+      <div class="block sm:hidden pr-4" @click="showNavContent()">
         <button
           id="nav-toggle"
-          class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-gray-800 hover:border-teal-500 appearance-none focus:outline-none"
+          class="flex items-center px-3 py-2 rounded text-gray-500 hover:text-gray-800 appearance-none focus:outline-none"
         >
           <svg
-            class="fill-current h-3 w-3"
-            viewBox="0 0 20 20"
+            :class="menu === false ? 'text-primary-base' : 'text-red-900'"
+            width="40"
+            height="40"
+            viewBox="0 0 24 24"
+            fill="currentcolor"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <title>Menu</title>
-            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            <circle cx="17" cy="8" r="4" fill="primary-base" />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M15 8C15 6.89543 15.8954 6 17 6C18.1046 6 19 6.89543 19 8H15ZM11 8C11 7.29873 11.1203 6.62556 11.3414 6H5C4.44772 6 4 6.44772 4 7C4 7.55228 4.44772 8 5 8H11ZM11.8027 11C12.2671 11.8028 12.9121 12.488 13.6822 13H5C4.44772 13 4 12.5523 4 12C4 11.4477 4.44772 11 5 11H11.8027ZM5 16C4.44772 16 4 16.4477 4 17C4 17.5523 4.44772 18 5 18H19C19.5523 18 20 17.5523 20 17C20 16.4477 19.5523 16 19 16H5Z"
+              fill="currentcolor"
+            />
           </svg>
         </button>
       </div>
 
       <div
-        class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
+        ref="menu"
+        class="w-full flex-grow sm:flex sm:items-center sm:w-auto h-screen sm:h-full my-[50%] mx-[20%] sm:m-auto sm:block sm:mt-0 sm:bg-white sm:bg-transparent text-black p-4 sm:p-0 z-20"
+        :class="menu ? '' : 'hidden'"
       >
-        <ul class="list-reset lg:flex justify-center flex-1 items-center">
-          <li class="mr-3">
+        <ul class="list-reset sm:flex justify-center flex-1 items-center">
+          <li class="mr-3 mb-8 sm:mb-auto sm:mt-4">
             <a
               class="inline-block py-2 px-4 text-primary-base font-bold no-underline"
               @click="showNavContent()"
@@ -44,7 +54,7 @@
               >Qui sommes-nous ?</a
             >
           </li>
-          <li class="mr-3">
+          <li class="mr-3 mb-8 sm:mb-auto sm:mt-4">
             <a
               class="inline-block text-primary-base no-underline hover:text-primary-safe hover:text-underline py-2 px-4"
               @click="showNavContent()"
@@ -52,7 +62,7 @@
               >Nos formations
             </a>
           </li>
-          <li class="mr-3">
+          <li class="mr-3 mb-8 sm:mb-auto sm:mt-4">
             <a
               class="inline-block text-primary-base no-underline hover:text-primary-safe hover:text-underline py-2 px-4"
               @click="showNavContent()"
@@ -60,7 +70,7 @@
               >Nos Opportunités
             </a>
           </li>
-          <li class="mr-3">
+          <li class="mr-3 mb-8 sm:mb-auto sm:mt-4">
             <a
               class="inline-block text-primary-base no-underline hover:text-primary-safe hover:text-underline py-2 px-4"
               @click="showNavContent()"
@@ -71,7 +81,7 @@
         </ul>
         <button
           id="navAction"
-          class="mx-auto hover:drop-shadow-md lg:mx-0 hover:no-underline bg-white text-primary-safe rounded-full mt-4 lg:mt-0 py-4 px-8 shadow"
+          class="mx-auto hover:drop-shadow-md sm:mx-0 hover:no-underline bg-white text-primary-safe rounded-full mt-4 sm:mt-0 py-4 px-8 shadow"
         >
           Notre Catalogue
         </button>
@@ -104,10 +114,18 @@ export default {
   components: {
     footerComponent,
   },
+  data() {
+    return {
+      menu: false,
+    };
+  },
   methods: {
     showNavContent() {
-      // navContent.style.visibility=visible;
-      console.log("1");
+      if (this.menu === true) {
+        this.menu = false;
+      } else {
+        this.menu = true;
+      }
     },
   },
 };

@@ -1,28 +1,36 @@
 module.exports = {
-  darkMode: 'media',
-  content: [
-    "./index.html",
-    "./src/**/*.{vue,js,ts,jsx,tsx}",
-  ],
+  darkMode: "media",
+  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      backgroundImage: {
+        "home-primary": "url('/src/assets/pexels-rfstudio-38110821.png')",
+        "frame-6": "url('/src/assets/Frame6.png')",
+        "frame-7": "url('./src/assets/Frame7.png')",
+        "frame-8": "url('./src/assets/Frame8.png')",
+        "frame-9": "url('./src/assets/Frame9.png')",
+        "fm-4": "url('./src/assets/fm.png')",
+        "fr-4": "url('./src/assets/fr.png')",
+        "f1-4": "url('./src/assets/f1.png')",
+        "frame-10": "url('./src/assets/Frame10.png')",
+        "frame-11": "url('./src/assets/Frame11.png')",
+      },
       fontFamily: {
-        'base': ['ui-sans-serif', 'system-ui'],
+        base: ["ui-sans-serif", "system-ui"],
       },
       colors: {
-        black: '#000',
-        white: '#fff',
-        showcase : '#F1F4F6',
-        headlines : '#1A202C', 
-        line : '#EEF1F5',
-        primary : {
-          base:'#4857DE',
-          safe : '#0B6403',
-          fade:'#AACCFA',
+        black: "#000",
+        white: "#fff",
+        showcase: "#F1F4F6",
+        headlines: "#1A202C",
+        line: "#EEF1F5",
+        primary: {
+          base: "#4857DE",
+          safe: "#0B6403",
+          fade: "#AACCFA",
         },
-      }
+      },
     },
-  
   },
   plugins: [],
-}
+};

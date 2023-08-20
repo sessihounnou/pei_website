@@ -6,8 +6,8 @@
         <div>
           <img src="../assets/logo.svg" class="mr-5 h-6 sm:h-9" alt="logo" />
           <p class="max-w-xs mt-4 text-sm text-gray-900">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
-            accusantium.
+            Nous couvrons tous vos besoins : formation, conseil, études,
+            recrutement, externalisation et solutions IT.
           </p>
           <div class="flex mt-8 space-x-6 text-gray-900">
             <a class="hover:opacity-75" href target="_blank" rel="noreferrer">

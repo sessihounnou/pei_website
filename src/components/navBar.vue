@@ -9,7 +9,7 @@
       <div class="w-[70%] sm:w-auto pl-4 flex">
         <a
           class="toggleColour text-blue-900 no-underline hover:no-underline font-bold text-2xl sm:text-4xl"
-          href="#"
+          href="/"
         >
           <!--Icon from: http://www.potlabicons.com/ -->
           <img src="../assets/logo.svg" alt="" />
@@ -50,7 +50,7 @@
             <a
               class="inline-block py-2 px-4 text-primary-base font-bold no-underline"
               @click="showNavContent()"
-              href="#"
+              href="/about"
               >Qui sommes-nous ?</a
             >
           </li>
@@ -66,7 +66,7 @@
             <a
               class="inline-block text-primary-base no-underline hover:text-primary-safe hover:text-underline py-2 px-4"
               @click="showNavContent()"
-              href="#"
+              href="/opportunity"
               >Nos Opportunités
             </a>
           </li>
@@ -74,7 +74,7 @@
             <a
               class="inline-block text-primary-base no-underline hover:text-primary-safe hover:text-underline py-2 px-4"
               @click="showNavContent()"
-              href="#"
+              href="contact"
               >Contactez-nous
             </a>
           </li>

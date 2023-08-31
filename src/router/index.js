@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import home from '../views/HomeView.vue'
 import about from '../views/about.vue'
 import contact from '../views/contact.vue'
+import opportunity from '../views/opportunity.vue'
 import services from '../views/services.vue'
 import nav from '../components/navBar.vue'
 
@@ -27,9 +28,9 @@ const router = createRouter({
       meta: { layout:nav, public: true },
     },
     {
-      path: '/services',
-      name: 'services',
-      component: services,
+      path: '/opportunity',
+      name: 'opportunity',
+      component: opportunity,
       meta: { layout:nav, public: true },
     },
   ]

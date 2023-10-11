@@ -1,227 +1,235 @@
 <template>
-  <section>
-    <div class="w-full sm:h-[712px] h-[500px] bg-cover bg-no-repeat bg-home-primary">
-        <div class="bg-blue-500 sm:h-[712px] h-[500px] bg-opacity-50">
-            <div class="flex">
-                <div
-                    class="sm:w-[778px] w-[500px] sm:h-[148] h-[100px] sm:py-[233px] py-[170px] sm:px-[60px] px-[20px]">
-                    <p class="text-justify sm:text-[30px] text-[15px] text-white">
-                        SOCIÉTÉ D'EXPERTISE EN FORMATION, <br> ASSISTANCE CONSEIL, ÉTUDE,<br>
-                        RECRUTEMENT,EXTERNALISATION & SOLUTIONS
-                        <br> INFORMATIQUES
-                    </p>
-                </div>
-                <img src="../assets/Vector2.png" alt=""
-                    class="sm:ml-[70px] ml-[-160px] sm:h-[870px] h-[550px] sm:mt-[-50px] mt-[-20px]">
-
-            </div>
-            <div
-                class="bg-[#008C36] sm:h-[57px] h-[40px]  sm:w-[190px] w-[110px] sm:mx-[250px] mx-[90px]  sm:mt-[-350px] mt-[-180px] sm:py-[7px] py-[7px] rounded-[30px]">
-                <a href="./about.html"
-                    class="text-white text-center font-semibold sm:text-[24px] text-[15px] sm:mx-[33px] mx-[16px] sm:mt-0 mt-[12px]">En
-                    savoir +</a>
-                    
-            </div>
-            <h1
-                class="text-white sm:px-[140px] px-[14px] sm:mt-[40px] mt-[20px] text-[14px] font-semibold sm:text-[24px]">
-                PLEIADE EXPERTISE INTERNATIONALE
-            </h1>
-        </div>
-    </div>
-    <img src="../assets/Vector4.png" alt="" class="sm:ml-[1080px] ml-[280px] sm:mt-[20px]">
+  <section class="hide-scrollbar-y">
     <div
-        class="sm:w-[450px] w-[190px] sm:h-[54px] h-[30px] rounded-[30px] sm:mx-[850px] sm:ml-[860px] ml-[140px]  border border-[#1371B9] sm:my-[29px] ">
-        <p class="text-right sm:mr-[50px] mr-[10px] sm:mt-[-8px] font-semibold sm:text-[40px] text-[#1371B9]">
-            Nos services
+      class="bg-[url('./assets/s1.png')] absolute sm:h-[600px] h-[400px] bg-cover"
+    >
+      <div class="bg-[#1371B9] sm:h-[600px] h-[400px] bg-opacity-30">
+        <p
+          class="text-white font-bold sm:text-[23px] text-[16px] pt-[120px] ml-8 text-left sm:pt-[180px] sm:ml-[200px] sm:w-[32%]"
+        >
+          SOCIÉTÉ D'EXPERTISE EN FORMATION, ASSISTANCE CONSEIL, ÉTUDE,
+          RECRUTEMENT, EXTERNALISATION & SOLUTIONS INFORMATIQUES
         </p>
-    </div>
-    <img src="../assets/Vector5.png" alt="" class="sm:ml-[990px] ml-[200px]">
-    <div class=" sm:ml-4 grid sm:grid-cols-4 grid-rows-1 mt-2">
-        <div id="clickableDiv"
-            class="cursor-pointer relative transition-1 sm:w-[330px] sm:mr-[20px] sm:h-[330px] h-[250px] rounded-[10px] bg-cover bg-no-repeat bg-frame-6 sm:mb-0 mb-[30px]"
-            >
-            <div class="bg-[#1371B9] sm:w-[330px] sm:h-[330px] h-[250px] rounded-[10px] bg-opacity-50">
-
-            </div>
-            <p class="font-bold sm:text-[32px] text-[22px] text-white text-center sm:mt-[-200px] mt-[-130px]">
-                FORMATION
-            </p>
-            <!-- boite d'information  -->
-            <div id="infoDiv"
-                class="hidden sm:ml-[30px] ml-[15px] w-[330px] sm:mt-0 mt-[-100px] text-white sm:w-[400px] bg-[#1371B9] p-2 rounded shadow-md w-40 text-center mt-2 overflow z-index-1 absolute">
-                <h1 class="sm:text-center text-white sm:text-[17px] text-[16px]">ETUDES ET SONDAGES</h1>
-                <p class="text-justify text-white sm:text-[14px]">
-                <h1 class="sm:text-[15px] text-[13px] sm:text-left sm:ml-[10px]">Boostez vos activités et garantissez-vous le succès
-                    à travers nos études et sondages en :</h1>
-
-                <p class="sm:text-[14px] text-[12px] ml-[19px] text-left sm:ml-[15px]">
-                    _Economie et sociologie (socio-économiques et démographiques)<br>
-                    _Marketing (Etude de marché, Enquête de satisfaction, etc .)<br>
-                    _Audit-qualité (certification ISO)<br>
-                    _Organisation et stratégie (Audit organisationnel, Plan d’affaires, etc…);<br>
-                    _Management des ressources humaines (Audit RH, Plan de formation,Bilan social)<br>
-                </p>
-
-                </p>
-
-            </div>
-            <!-- fin boite d'information -->
-        </div>
-
-        <div id="clickableDiv2"
-            class="cursor-pointer transition-1 sm:w-[330px] h-[250px] sm:mr-[20px] sm:h-[330px] rounded-[10px] bg-cover bg-frame-7 sm:mb-0 mb-[30px]">
-            <div class="bg-[#1371B9] sm:w-[330px] h-[250px] sm:h-[330px]  rounded-[10px] bg-opacity-50">
-
-            </div>
-            <p class="font-bold sm:text-[32px] text-[22px] text-white text-center sm:mt-[-200px] mt-[-160px]">
-                ETUDES ET <br> SONDAGES
-            </p>
-            <!-- boite d'information  -->
-            <div id="infoDiv2"
-                class="hidden ml-[15px] w-[330px] sm:mt-0 mt-[-100px] sm:ml-[30px] text-white sm:w-[400px] bg-[#1371B9] p-2 rounded shadow-md w-40 text-center mt-2 overflow z-index-1 absolute">
-                <h1 class="sm:text-center text-white text-[16px] sm:text-[17px]">ETUDES ET SONDAGES</h1>
-                <p class="text-justify text-white sm:text-[14px]">
-                <h1 class="sm:text-[15px] text-[13px] sm:text-left sm:ml-[10px]">Boostez vos activités et garantissez-vous le succès
-                    à travers
-                    nos études et sondages en :</h1>
-
-                <p class="sm:text-[14px] text-[12px] ml-[19px] text-left sm:ml-[15px]">
-                    _Economie et sociologie (socio-économiques et démographiques)<br>
-                    _Marketing (Etude de marché, Enquête de satisfaction, etc .)<br>
-                    _Audit-qualité (certification ISO)<br>
-                    _Organisation et stratégie (Audit organisationnel, Plan d’affaires, etc…);<br>
-                    _Management des ressources humaines (Audit RH, Plan de formation,Bilan social)<br>
-                </p>
-
-                </p>
-
-            </div>
-            <!-- fin boite d'information -->
-        </div>
-        <div id="clickableDiv3"
-            class="cursor-pointer transition-1 sm:w-[330px] h-[250px] sm:mr-[20px] sm:h-[330px] rounded-[10px] bg-cover sm:mb-0 mb-[30px] bg-frame-8"
+        <p
+          class="text-white sm:text-[14px] text-[18px] sm:mt-[4%] sm:text-[18px] ml-8 mt-6 sm:ml-[200px]"
+        >
+          PLEIADE EXPERTISE INTERNATIONALE
+        </p>
+        <div class="sm:ml-[200px] ml-8 mt-[15px] sm:mt-[70px]">
+          <button
+            class="sm:w-[13%] w-[32%] h-[45px] sm:h-[48px] font-semibold hover:border-white hover:border-2 hover:bg-white hover:bg-opacity-0 bg-[#0988E9] text-white rounded-[18px]"
           >
-            <div class="bg-[#1371B9] h-[250px] sm:w-[330px] sm:h-[330px]  rounded-[10px] bg-opacity-50">
-
-            </div>
-            <p class="font-bold sm:text-[32px] text-[22px] text-white text-center sm:mt-[-200px] mt-[-160px]">
-                INGENIERIE <br> FINANCIERE
-            </p>
-            <!-- boite d'information  -->
-            <div id="infoDiv3"
-                class="hidden ml-[15px] w-[330px] sm:mt-0 mt-[-100px] sm:ml-[30px] text-white sm:w-[400px] bg-[#1371B9] p-2 rounded shadow-md w-40 text-center mt-2 overflow z-index-1 absolute">
-                <h1 class="sm:text-center text-[13px] text-white text-[16px] sm:text-[17px]">ETUDES ET SONDAGES</h1>
-                <p class="text-justify text-white sm:text-[14px]">
-                <h1 class="sm:text-[15px] sm:text-left sm:ml-[10px]">Boostez vos activités et garantissez-vous le succès
-                    à travers
-                    nos études et sondages en :</h1>
-
-                <p class="sm:text-[14px] text-[12px] ml-[19px] text-left sm:ml-[15px]">
-                    _Economie et sociologie (socio-économiques et démographiques)<br>
-                    _Marketing (Etude de marché, Enquête de satisfaction, etc .)<br>
-                    _Audit-qualité (certification ISO)<br>
-                    _Organisation et stratégie (Audit organisationnel, Plan d’affaires, etc…);<br>
-                    _Management des ressources humaines (Audit RH, Plan de formation,Bilan social)<br>
-                </p>
-
-                </p>
-
-            </div>
-            <!-- fin boite d'information -->
+            <a href="/about" class="">En savoir plus</a>
+          </button>
+          <button
+            class="sm:w-[13%] w-[32%] h-[45px] sm:h-[48px] font-semibold hover:bg-[#0988E9] hover:border-none sm:ml-4 ml-2 text-white border-white border-2 rounded-[18px]"
+          >
+            <a href="#title" class="">Commencer</a>
+          </button>
         </div>
-        <div id="clickableDiv4" class="cursor-pointer bg-frame-9 transition-1 sm:w-[330px] h-[250px] sm:h-[330px] rounded-[10px] bg-cover">
-            <div class="bg-[#1371B9] h-[250px] sm:w-[330px] sm:h-[330px]  rounded-[10px] bg-opacity-50">
-
-            </div>
-            <p class="font-bold sm:text-[32px] text-[22px] text-white text-center sm:mt-[-200px] mt-[-130px]">
-                EXTERNALISATION
-            </p>
-            <!-- boite d'information  -->
-            <div id="infoDiv4"
-                class="hidden ml-[15px] w-[330px] sm:mt-0 mt-[-100px] sm:ml-[-90px] text-white sm:w-[400px] bg-[#1371B9] p-2 rounded shadow-md w-40 text-center mt-2 overflow z-index-1 absolute">
-                <h1 class="sm:text-center text-[13px] text-[16px] text-white sm:text-[17px]">ETUDES ET SONDAGES</h1>
-                <p class="text-justify text-white sm:text-[14px]">
-                <h1 class="sm:text-[15px] sm:text-left sm:ml-[10px]">Boostez vos activités et garantissez-vous le succès
-                    à travers
-                    nos études et sondages en :</h1>
-
-                <p class="sm:text-[14px] text-[12px] ml-[19px] text-left sm:ml-[15px]">
-                    _Economie et sociologie (socio-économiques et démographiques)<br>
-                    _Marketing (Etude de marché, Enquête de satisfaction, etc .)<br>
-                    _Audit-qualité (certification ISO)<br>
-                    _Organisation et stratégie (Audit organisationnel, Plan d’affaires, etc…);<br>
-                    _Management des ressources humaines (Audit RH, Plan de formation,Bilan social)<br>
-                </p>
-
-                </p>
-
-            </div>
-            <!-- fin boite d'information -->
+      </div>
+    </div>
+    <img
+      src="../assets/Vector2.png"
+      alt=""
+      class="relative sm:ml-[65%] ml-[53%] sm:h-[650px] sm:w-[240px] w-[45%] h-[520px] sm:mt-[-4px] mt-[-2px]"
+    />
+    <h1
+      id="title"
+      class="fony-bold text-center sm:text-[25px] text-[20px] sm:mt-0 mt-[-80px] font-bold text-[#008C36]"
+    >
+      Nos services
+    </h1>
+    <p
+      class="text-center font-semibold sm:text-[20px] text-[18px] sm:mt-4 mt-2 text-[#1371B9]"
+    >
+      Tous savoir sur les services offerts.
+    </p>
+    <!-- debut du carousel -->
+    <div class="overflow-x-auto">
+      <div class="flex space-x-4">
+        <div
+          v-for="(card, index) in visibleCards"
+          :key="index"
+          class="w-[33.33%] p-4"
+        >
+          <!-- Contenu de la carte -->
+          <div class="bg-white shadow-lg rounded-lg p-4">
+            <img
+              :src="card.imageUrl"
+              alt="Card Image"
+              class="w-full h-32 object-cover mb-4 rounded-t-lg"
+            />
+            <h2 class="text-xl font-bold mb-2">{{ card.title }}</h2>
+            <p class="text-gray-600">{{ card.description }}</p>
+          </div>
         </div>
+      </div>
     </div>
-    <img src="../assets/Vector6.png" alt="" class="sm:ml-[400px] sm:h-[90px] h-[70px] ml-[100px]   ">
-    <div
-        class="sm:w-[450px]  w-[210px] sm:h-[54px] h-[30px] rounded-[30px] border border-[#1371B9] sm:ml-[15px] ml-[10px] sm:my-[40px] sm:mt-[2px] ">
-        <p class="text-left sm:ml-[50px] ml-[20px] sm:mt-[-8px] font-semibold sm:text-[40px] text-[#1371B9]">
-            Nos cibles
-        </p>
-    </div>
-    <div class="sm:ml-8 grid sm:grid-cols-2 sm:mt-[-10px] mt-[15px]">
-        <div class="cursor-pointer bg-fm-4 sm:w-[770px] sm:mb-0 mb-[30px] sm:h-[335px] h-[150px] rounded-[10px]"
+    <!-- fin du carousel -->
+
+    <div class="d1 sm:mt-10 mt-[20px] h-[2300px] sm:h-[1100px] bg-cover">
+      <h1
+        class="text-center sm:text-[30px] pt-[90px] text-[30px] sm:pt-[90px] font-bold text-white"
+      >
+        Nos cibles
+      </h1>
+      <div class="sm:flex sm:mt-20 mt-[40px]">
+        <div
+          class="shadow-lg sm:pb-0 pb-5 sm:w-[25%] w-[80%] h-auto mx-auto sm:h-[390px] rounded-[20px] bg-white"
+        >
+          <img src="../assets/public.png" alt="" class="sm:h-[220px]" />
+          <h1
+            class="sm:text-[18px] text-[19px] mt-3 text-center font-bold sm:mt-6"
+          >
+            SECTEUR PUBLIC
+          </h1>
+          <a href="./secteur.html" class="">
+            <button
+              class="mx-[40px] mt-[17%] px-[21%] sm:px-[80px] sm:py-2.5 py-2 hover:bg-[#F1C40F] hover:text-white hover:border-[#F1C40F] hover:border-2 sm:mx-8 hover:no-underline font-bold bg-white text-[#6A6B6C] sm:mr-2 border-2 rounded-l-[15px] rounded-br-[15px] border-[#008C36] sm:mt-12"
             >
-            <div class="bg-[#1371B9] sm:w-[770px] h-[150px] sm:h-[335px]  rounded-[10px] bg-opacity-50">
-
-            </div>
-            <p class="font-bold sm:text-[32px] text-[18px]  text-white text-center sm:mt-[-170px] mt-[-80px]">
-                SECTEUR PUBLIC
-            </p>
+              En savoir plus
+            </button></a
+          >
         </div>
-        <div class="cursor-pointer sm:ml-[130px] bg-fr-4 sm:mb-0 mb-[30px] sm:w-[542px] sm:h-[335px] h-[150px] rounded-[10px]"
+        <div
+          class="shadow-lg sm:mt-0 mt-8 mx-auto sm:w-[25%] w-[80%] h-[330px] sm:h-[390px] rounded-[20px] bg-white"
+        >
+          <img src="../assets/prive.png" alt="" class="sm:h-[220px]" />
+          <h1
+            class="sm:text-[18px] text-[19px] mt-3 text-center font-bold sm:mt-6"
+          >
+            SECTEUR PRIVE
+          </h1>
+          <a href="./prive.html" class="">
+            <button
+              class="mx-[10%] sm:mt-0 mt-[16%] py-2 mt-8 hover:bg-[#F1C40F] hover:text-white hover:border-[#F1C40F] hover:border-2 sm:mx-8 hover:no-underline font-bold bg-white text-[#6A6B6C] sm:mr-2 border-2 rounded-l-[15px] rounded-br-[15px] border-[#008C36] mt-4 sm:mt-12 sm:py-2.5 px-16 sm:px-[80px]"
             >
-            <div class="bg-[#1371B9] sm:w-[542px] sm:h-[335px] h-[150px] rounded-[10px] bg-opacity-50">
-
-            </div>
-            <p class="font-bold sm:text-[32px] text-[18px]   text-white text-center sm:mt-[-170px] mt-[-80px]">
-                SECTEUR PRIVE
-            </p>
+              En savoir plus
+            </button></a
+          >
         </div>
-    </div>
-    <div class="sm:ml-8 lg:ml-12 grid sm:grid-cols-2 sm:mt-[30px]">
-        <div class="cursor-pointer  sm:w-[542px] bg-f1-4 sm:mb-0 mb-[30px] sm:h-[335px] h-[150px] rounded-[10px]"
-           >
-            <div class="bg-[#1371B9] sm:w-[542px] sm:h-[335px] h-[150px]  rounded-[10px] bg-opacity-50">
-
-            </div>
-            <p class="font-bold sm:text-[32px] text-[18px]   text-white text-center sm:mt-[-210px] mt-[-100px]">
-                INSTITUTIONS <br> INTERNATIONALES
-            </p>
-        </div>
-        <div class="cursor-pointer sm:ml-[-96px] bg-frame-10 sm:mb-0 mb-[30px] sm:w-[770px] sm:h-[335px] h-[150px] rounded-[10px]"
+        <div
+          class="shadow-lg mt-8 sm:mt-0 mx-auto w-[80%] h-[330px] sm:w-[25%] sm:h-[390px] rounded-[20px] bg-white"
+        >
+          <img src="../assets/ins.png" alt="" class="sm:h-[220px]" />
+          <h1
+            class="sm:text-[18px] text-[19px] mt-3 text-center font-bold sm:mt-6"
+          >
+            INSTITUTIONS <br class="" />
+            INTERNATIONALES
+          </h1>
+          <a href="./institution.html" class="">
+            <button
+              class="mx-[10%] sm:mt-0 mt-[8%] py-2 hover:bg-[#F1C40F] hover:text-white hover:border-[#F1C40F] hover:border-2 sm:mx-8 hover:no-underline font-bold bg-white text-[#6A6B6C] sm:mr-2 border-2 rounded-l-[15px] rounded-br-[15px] border-[#008C36] mt-4 sm:mt-6 sm:py-2.5 px-16 sm:px-[80px]"
             >
-            <div class="bg-[#1371B9] sm:w-[770px] sm:h-[335px] h-[150px] rounded-[10px] bg-opacity-50">
-
-            </div>
-            <p class="font-bold sm:text-[32px] text-[18px]   text-white text-center sm:mt-[-230px] mt-[-115px]">
-                SOCIÉTÉ CIVILES <br> NATIONALES ET <br> INTERNATIONALES
-            </p>
+              En savoir plus
+            </button></a
+          >
         </div>
-    </div>
-    <div class="cursor-pointer  sm:mt-[30px] mt-[20px] mb-[20px]">
-        <div class="w-full sm:h-[320px] h-[250px] bg-frame-11" >
-            <div class="bg-[#1371B9] w-full sm:h-[320px] h-[250px] bg-opacity-50">
-
-            </div>
-            <p class="font-bold sm:text-[32px] text-[25px]  text-white text-center sm:mt-[-170px] mt-[-130px]">
-                PARTICULIERS
-            </p>
+      </div>
+      <div class="sm:flex sm:mt-10">
+        <div
+          class="shadow-lg mt-8 sm:mt-0 sm:w-[25%] w-[80%] h-[330px] sm:ml-[53px] mx-auto sm:h-[390px] rounded-[20px] bg-white"
+        >
+          <img src="../assets/societe.png" alt="" class="sm:h-[220px]" />
+          <h1
+            class="sm:text-[18px] text-[19px] mt-3 text-center font-bold sm:mt-6"
+          >
+            SOCIÉTÉ CIVILES NATIONALES <br class="" />
+            ET INTERNATIONALES
+          </h1>
+          <a href="./societe.html" class="">
+            <button
+              class="mx-[10%] mt-[7%] py-2 hover:bg-[#F1C40F] hover:text-white hover:border-[#F1C40F] hover:border-2 sm:mx-8 hover:no-underline font-bold bg-white text-[#6A6B6C] sm:mr-2 border-2 rounded-l-[15px] rounded-br-[15px] border-[#008C36] sm:mt-6 sm:py-2.5 px-16 sm:px-[80px]"
+            >
+              En savoir plus
+            </button></a
+          >
         </div>
+        <div
+          class="shadow-lg mt-8 sm:mt-0 mx-auto w-[80%] h-[330px] sm:ml-[-390px] sm:w-[25%] sm:h-[390px] rounded-[20px] bg-white"
+        >
+          <img src="../assets/part.png" alt="" class="sm:h-[220px]" />
+          <h1
+            class="sm:text-[18px] text-[19px] mt-3 text-center font-bold sm:mt-6"
+          >
+            PARTICULIERS
+          </h1>
+          <a href="./particulier.html" class="">
+            <button
+              class="mx-[10%] sm:mt-0 mt-[16%] py-2 mt-8 hover:bg-[#F1C40F] hover:text-white hover:border-[#F1C40F] hover:border-2 sm:mx-8 hover:no-underline font-bold bg-white text-[#6A6B6C] sm:mr-2 border-2 rounded-l-[15px] rounded-br-[15px] border-[#008C36] mt-4 sm:mt-12 sm:py-2.5 px-16 sm:px-[80px]"
+            >
+              En savoir plus
+            </button></a
+          >
+        </div>
+      </div>
     </div>
   </section>
 </template>
 <script>
 export default {
-  name: "home",
+  name: "slide",
   setup() {},
+  data() {
+    return {
+      cards: [
+        {
+          imageUrl: "../assets/formation2.png",
+          title: "Formation",
+          describe:
+            "Avec des méthodes andragogiques les plus adaptées aux adultes et des outils de formations. ",
+        },
+        {
+          imageUrl: "../assets/etude.png",
+          title: "Etudes et Sondages",
+          describe:
+            " Boostez vos activités et garantissez-vous le succès à travers nos études et sondages en ........  ",
+        },
+        {
+          imageUrl: "../assets/genie.png",
+          title: "Ingenierie financière",
+          describe:
+            "Avec nos experts, nous vous accompagnons dans vos projets d’investissement, de mobilisation de ....... ",
+        },
+        {
+          imageUrl: "../assets/externe.png",
+          title: "Externalisation",
+          describe:
+            "Parce que nous sommes des professionnels et forts de nos expériences, faites-nous confiance pour ....... ",
+        },
+        {
+          imageUrl: "../assets/audit.png",
+          title: "Audit-Comptabilité",
+          describe:
+            "Nous offrons à nos clients en services ponctuels et/ou en accompagnement permanent ....... ",
+        },
+        {
+          imageUrl: "../assets/gestion.png",
+          title: "Recrutement et gestion d’intérims ",
+          describe:
+            "Parce que les Ressources Humaines constituent le capital le plus précieux de votre ....... ",
+        },
+        {
+          imageUrl: "../assets/conseil.png",
+          title: "Assistance et conseil",
+          describe:
+            "Vous avez des difficultés dans votre entreprise ! Nous avons la solution à vos problèmes .......",
+        },
+        {
+          imageUrl: "../assets/solution.png",
+          title: "Solutions informatiques",
+          describe:
+            "Vous voulez vous rendre visibles ! Vous voulez automatiser toutes vos taches ....... ",
+        },
+      ],
+      visibleCards: [],
+    };
+  },
+  mounted() {
+    // Au moment du montage, affichez les trois premières cartes
+    this.visibleCards = this.cards.slice(0, 3);
+  },
 };
 </script>
-<style></style>

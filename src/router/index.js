@@ -4,6 +4,7 @@ import about from "../views/AboutView.vue";
 import feedback from "../views/FeedbackView.vue";
 import audit from "../views/AuditView.vue";
 import assistance from "../views/AssistanceView.vue";
+import help from "../views/HelpsCenterView.vue";
 import nav from "../components/navBar.vue";
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -30,6 +31,12 @@ const router = createRouter({
       path: "/audit",
       name: "audit",
       component: audit,
+      meta: { layout: nav, public: true },
+    },
+    {
+      path: "/help",
+      name: "help",
+      component: help,
       meta: { layout: nav, public: true },
     },
     {

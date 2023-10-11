@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import home from "../views/HomeView.vue";
 import about from "../views/AboutView.vue";
+import audit from "../views/AuditView.vue";
 import assistance from "../views/AssistanceView.vue";
 import nav from "../components/navBar.vue";
 const router = createRouter({
@@ -16,6 +17,12 @@ const router = createRouter({
       path: "/about",
       name: "about",
       component: about,
+      meta: { layout: nav, public: true },
+    },
+    {
+      path: "/audit",
+      name: "audit",
+      component: audit,
       meta: { layout: nav, public: true },
     },
     {

@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="s1 absolute sm:h-[600px] h-[400px] bg-cover">
+    <div class="bg-image-s1 absolute sm:h-[600px] h-[400px] bg-cover">
       <div class="bg-[#1371B9] sm:h-[600px] h-[400px] bg-opacity-30">
         <p
           class="text-white font-bold sm:text-[23px] text-[16px] pt-[120px] ml-8 text-left sm:pt-[180px] sm:ml-[200px] sm:w-[32%]"
@@ -27,7 +27,7 @@
       </div>
     </div>
     <img
-      src="../Images/Vector2.png"
+      src="../assets/Vector2.png"
       alt=""
       class="relative sm:ml-[65%] ml-[53%] sm:h-[650px] sm:w-[240px] w-[45%] h-[520px] sm:mt-[-4px] mt-[-2px]"
     />

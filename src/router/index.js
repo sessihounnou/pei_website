@@ -10,6 +10,7 @@ import target from "../views/TargetsView.vue";
 import advice from "../views/AdviceView.vue";
 import contact from "../views/ContactView.vue";
 import study from "../views/StudyView.vue";
+import externalization from "../views/ExternalisationView.vue";
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -71,6 +72,12 @@ const router = createRouter({
       path: "/study",
       name: "study",
       component: study,
+      meta: { layout: nav, public: true },
+    },
+    {
+      path: "/externalization",
+      name: "externalization",
+      component: externalization,
       meta: { layout: nav, public: true },
     },
     // {

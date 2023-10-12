@@ -20,6 +20,9 @@ module.exports = {
         "frame-15": "url('./src/assets/Frame15.png')",
         "image-i5": "url('./src/assets/i5.png')",
         "image-s1": "url('./src/assets/s1.png')",
+        "image-d1": "url('./src/assets/d1.png')",
+        "image-c1": "url('./src/assets/c1.png')",
+        "image-1": "url('./src/assets/image1.png')",
         "frame-16": "url('./src/assets/Frame16.png')",
       },
       fontFamily: {

@@ -16,6 +16,7 @@ import formation from "../views/FormationView.vue";
 import engineering from "../views/EngineeringView.vue";
 import institution from "../views/InstitutionView.vue";
 import individual from "../views/IndividualView.vue";
+import privatesociety from "../views/PrivateView.vue";
 import externalization from "../views/ExternalisationView.vue";
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -122,6 +123,13 @@ const router = createRouter({
       component: individual,
       meta: { layout: nav, public: true },
     },
+    {
+      path: "/privatesociety",
+      name: "privatesociety",
+      component: privatesociety,
+      meta: { layout: nav, public: true },
+    },
+
     // {
     //   path: "/about",
     //   name: "about",

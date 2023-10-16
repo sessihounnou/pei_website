@@ -14,9 +14,11 @@ import contact from "../views/ContactView.vue";
 import study from "../views/StudyView.vue";
 import formation from "../views/FormationView.vue";
 import engineering from "../views/EngineeringView.vue";
+import computerservices from "../views/ComputerservicesView.vue";
 import institution from "../views/InstitutionView.vue";
 import individual from "../views/IndividualView.vue";
 import privatesociety from "../views/PrivateView.vue";
+
 import externalization from "../views/ExternalisationView.vue";
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -33,24 +35,24 @@ const router = createRouter({
       component: about,
       meta: { layout: nav, public: true },
     },
-    {
+    /* {
       path: "/feedback",
       name: "feedback",
       component: feedback,
       meta: { layout: nav, public: true },
-    },
+    }, */
     {
       path: "/audit",
       name: "audit",
       component: audit,
       meta: { layout: nav, public: true },
     },
-    {
+    /* {
       path: "/help",
       name: "help",
       component: help,
       meta: { layout: nav, public: true },
-    },
+    }, */
     {
       path: "/assistance",
       name: "assistance",
@@ -112,23 +114,23 @@ const router = createRouter({
       meta: { layout: nav, public: true },
     },
     {
-      path: "/institution",
-      name: "institution",
-      component: institution,
+      path: "/computerservices",
+      name: "computerservices",
+      component: computerservices,
       meta: { layout: nav, public: true },
     },
-    {
+    /* {
       path: "/individual",
       name: "individual",
       component: individual,
       meta: { layout: nav, public: true },
-    },
-    {
+    },  */
+    /* {
       path: "/privatesociety",
       name: "privatesociety",
       component: privatesociety,
       meta: { layout: nav, public: true },
-    },
+    }, */
 
     // {
     //   path: "/about",

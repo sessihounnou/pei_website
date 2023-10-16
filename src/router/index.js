@@ -6,10 +6,14 @@ import audit from "../views/AuditView.vue";
 import assistance from "../views/AssistanceView.vue";
 import help from "../views/HelpsCenterView.vue";
 import nav from "../components/navBar.vue";
+import footer2 from "../components/footer-2.vue";
+import footer3 from "../components/footer-3.vue";
 import target from "../views/TargetsView.vue";
 import advice from "../views/AdviceView.vue";
 import contact from "../views/ContactView.vue";
 import study from "../views/StudyView.vue";
+import formation from "../views/FormationView.vue";
+import engineering from "../views/EngineeringView.vue";
 import externalization from "../views/ExternalisationView.vue";
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -78,6 +82,30 @@ const router = createRouter({
       path: "/externalization",
       name: "externalization",
       component: externalization,
+      meta: { layout: nav, public: true },
+    },
+    {
+      path: "/footer2",
+      name: "footer",
+      component: footer2,
+      meta: { layout: nav, public: true },
+    },
+    {
+      path: "/footer3",
+      name: "footer",
+      component: footer3,
+      meta: { layout: nav, public: true },
+    },
+    {
+      path: "/formation",
+      name: "formation",
+      component: formation,
+      meta: { layout: nav, public: true },
+    },
+    {
+      path: "/engineering",
+      name: "engineering",
+      component: engineering,
       meta: { layout: nav, public: true },
     },
     // {

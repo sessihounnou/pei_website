@@ -1,15 +1,15 @@
 <template>
-  <footer class="bg-gray-100">
+  <footer class="bg-[#008c36]">
     <div class="w-[20%] border-t border-2 border-[#3b82f6] mx-auto"></div>
     <div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
         <div>
           <img src="../assets/logo.svg" class="mr-5 h-6 sm:h-9" alt="logo" />
-          <p class="max-w-xs mt-4 text-sm text-gray-900">
+          <p class="max-w-xs mt-4 text-sm text-white">
             Nous couvrons tous vos besoins : formation, conseil, études,
             recrutement, externalisation et solutions IT.
           </p>
-          <div class="flex mt-8 space-x-6 text-gray-900">
+          <div class="flex mt-8 space-x-6 text-white">
             <a class="hover:opacity-75" href target="_blank" rel="noreferrer">
               <span class="sr-only"> Facebook </span>
               <svg
@@ -89,33 +89,31 @@
           class="grid grid-cols-1 gap-8 lg:col-span-2 sm:grid-cols-2 lg:grid-cols-4"
         >
           <div>
-            <p class="font-medium text-blue-900">Company</p>
+            <p class="font-medium text-white">Company</p>
             <nav
-              class="flex flex-col mt-4 space-y-2 text-sm text-gray-500 text-gray-900"
+              class="flex flex-col mt-4 space-y-2 text-sm text-gray-500 text-white"
             >
-              <a class="hover:opacity-75" href="/about"> A propos </a>
-              <a class="hover:opacity-75" href="/contact"> Contact </a>
+              <a class="hover:opacity-75" href> A propos </a>
+              <a class="hover:opacity-75" href> Contact </a>
               <a class="hover:opacity-75" href> Blog </a>
               <a class="hover:opacity-75" href> Opportunité </a>
             </nav>
           </div>
           <div>
-            <p class="font-medium text-blue-900">Nos services</p>
+            <p class="font-medium text-white">Nos services</p>
             <nav
-              class="flex flex-col mt-4 space-y-2 text-sm text-gray-500 text-gray-900"
+              class="flex flex-col mt-4 space-y-2 text-sm text-gray-500 text-white"
             >
-              <a class="hover:opacity-75" href="formation"> Formation</a>
-              <a class="hover:opacity-75" href="/study"> Etudes et sondages</a>
+              <a class="hover:opacity-75" href> Formation</a>
+              <a class="hover:opacity-75" href> Etudes et sondages</a>
               <a class="hover:opacity-75" href> Ingénierie Financière </a>
-              <a class="hover:opacity-75" href="/externalization">
-                Externalisation</a
-              >
+              <a class="hover:opacity-75" href> Externalisation</a>
             </nav>
           </div>
           <div>
-            <p class="font-medium text-blue-900">Liens utile</p>
+            <p class="font-medium text-white">Liens utile</p>
             <nav
-              class="flex flex-col mt-4 space-y-2 text-sm text-gray-500 text-gray-900"
+              class="flex flex-col mt-4 space-y-2 text-sm text-gray-500 text-white"
             >
               <a class="hover:opacity-75" href> Catalogue </a>
               <a class="hover:opacity-75" href> Evenements </a>
@@ -123,9 +121,9 @@
             </nav>
           </div>
           <div>
-            <p class="font-medium text-blue-900">Legal</p>
+            <p class="font-medium text-white">Legal</p>
             <nav
-              class="flex flex-col mt-4 space-y-2 text-sm text-gray-500 text-gray-900"
+              class="flex flex-col mt-4 space-y-2 text-sm text-gray-500 text-white"
             >
               <a class="hover:opacity-75" href>
                 Politique de confidentialité
@@ -136,7 +134,7 @@
         </div>
       </div>
       <div
-        class="flex justify-center w-full mt-8 text-xs text-[gray-900] mx-auto"
+        class="flex justify-center w-full mt-8 text-xs text-[gray-900] mx-auto text-white"
       >
         © 2023 Pleiadexpertise par
         <span class="ml-[0.3%] cursor-pointer">

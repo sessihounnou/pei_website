@@ -14,6 +14,8 @@ import contact from "../views/ContactView.vue";
 import study from "../views/StudyView.vue";
 import formation from "../views/FormationView.vue";
 import engineering from "../views/EngineeringView.vue";
+import institution from "../views/InstitutionView.vue";
+import individual from "../views/IndividualView.vue";
 import externalization from "../views/ExternalisationView.vue";
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -106,6 +108,18 @@ const router = createRouter({
       path: "/engineering",
       name: "engineering",
       component: engineering,
+      meta: { layout: nav, public: true },
+    },
+    {
+      path: "/institution",
+      name: "institution",
+      component: institution,
+      meta: { layout: nav, public: true },
+    },
+    {
+      path: "/individual",
+      name: "individual",
+      component: individual,
       meta: { layout: nav, public: true },
     },
     // {

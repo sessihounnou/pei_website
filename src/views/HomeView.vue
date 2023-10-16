@@ -233,3 +233,11 @@ export default {
   },
 };
 </script>
+
+<style>
+.d1 {
+    background-image: url("../assets/d1.png");
+
+   
+}
+</style>

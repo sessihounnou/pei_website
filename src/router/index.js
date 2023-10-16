@@ -20,6 +20,9 @@ import individual from "../views/IndividualView.vue";
 import privatesociety from "../views/PrivateView.vue";
 
 import externalization from "../views/ExternalisationView.vue";
+import publicsociety from "../views/PublicView.vue";
+import society from "../views/SocietyView.vue";
+import particulary from "../views/ParticularyView.vue";
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -130,7 +133,29 @@ const router = createRouter({
       name: "privatesociety",
       component: privatesociety,
       meta: { layout: nav, public: true },
+<<<<<<< HEAD
     }, */
+=======
+    },
+     {
+      path: "/publicsociety",
+      name: "publicsociety",
+      component: publicsociety,
+      meta: { layout: nav, public: true },
+    },
+    {
+      path: "/society",
+      name: "society",
+      component: society,
+      meta: { layout: nav, public: true },
+    },
+    {
+      path: "/particulary",
+      name: "particulary",
+      component: particulary,
+      meta: { layout: nav, public: true },
+    },
+>>>>>>> ac7ba730a317e6375f0e992acdccb5c051267e03
 
     // {
     //   path: "/about",

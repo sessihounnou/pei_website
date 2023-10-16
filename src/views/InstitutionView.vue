@@ -31,5 +31,22 @@
       alt=""
       class="relative sm:ml-[65%] ml-[53%] sm:h-[650px] sm:w-[240px] w-[45%] h-[520px] sm:mt-[-4px] mt-[-2px]"
     />
+  <div class="flex flex-col gap-2 sm:flex sm:flex-row sm:gap-20 m-[30px] sm:m-[120px]">
+        <img src="../assets/institution.png" alt=""
+          class="w-[400px] sm:w-[500px] border-4 border-[#008C36] rounded border-opacity-900 ">
+        <div class=" ">
+          <p class=" text-[30px] sm:text-[32px] font-semibold sm:font-semibold  leading-loose">Institutions internationales</p>
+          <div class="text-[15px] sm:text-[18px]">
+
+            <p>
+              <li class="ml-5 sm:ml-10"> Agences du systeme des  Nations-Unies</li>
+              <li class="ml-5 sm:ml-10">Institutions régionales et sous régionales</li>
+            </p>
+
+          </div>
+        </div>
+      </div>
+
+
   </section>
 </template>

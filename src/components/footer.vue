@@ -1,6 +1,5 @@
 <template>
   <footer class="bg-gray-100">
-    <div class="w-[20%] border-t border-2 border-[#3b82f6] mx-auto"></div>
     <div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
         <div>

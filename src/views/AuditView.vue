@@ -31,5 +31,36 @@
       alt=""
       class="relative sm:ml-[65%] ml-[53%] sm:h-[650px] sm:w-[240px] w-[45%] h-[520px] sm:mt-[-4px] mt-[-2px]"
     />
+    <div class="">
+      <div
+        class="flex flex-col gap-2 sm:flex sm:flex-row sm:gap-20 m-[30px] sm:m-[50px] "
+      >
+        <img
+          src="../assets/audit.png"
+          alt=""
+          class="w-[400px] sm:w-[500px] "
+        />
+        <div class=" ">
+          <p
+            class=" text-[30px] sm:text-[32px] font-semibold sm:font-semibold  leading-loose"
+          >
+          Audit-Comptabilité
+          </p>
+          <div class="text-[15px] sm:text-[18px]">
+            <p class=" sm:mr-[30px]">
+              Nous offrons à nos clients en services ponctuels et/
+              ou en accompagnement permanent : <br />
+              <br /> 
+            </p>
+            <p>
+              <li class="ml-5 sm:ml-10">Assistance comptable;</li>
+              <li class="ml-5 sm:ml-10">Assistance fiscale;</li>
+              <li class="ml-5 sm:ml-10">Audit financier;</li>
+              <li class="ml-5 sm:ml-10">Audit comptable;</li> 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 </template>

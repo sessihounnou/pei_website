@@ -38,6 +38,7 @@
       alt=""
       class="relative sm:ml-[65%] ml-[53%] sm:h-[650px] sm:w-[240px] w-[45%] h-[520px] sm:mt-[-4px] mt-[-2px]"
     />
+  
   </section>
 </template>
 <script>

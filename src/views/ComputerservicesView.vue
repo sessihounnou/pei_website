@@ -15,12 +15,12 @@
         </p>
         <div class="sm:ml-[200px] ml-8 mt-[15px] sm:mt-[70px]">
           <div
-            class="bg-[#0988E9] sm:h-[62px] h-[40px] sm:w-[23%] w-[110px] sm:ml-[0px] ml-[20px] sm:py-[10px] py-[7px] rounded-[10px]"
+            class="bg-[#0988E9] sm:h-[60px] h-[40px] sm:w-[25%] w-[110px] sm:ml-[0px] ml-[20px] sm:py-[7px] py-[7px] rounded-[10px]"
           >
             <div
               class="text-white text-center font-semibold sm:text-[24px] text-[15px]"
             >
-              Assistance et conseil
+              Services informatiques
             </div>
           </div>
         </div>
@@ -32,43 +32,32 @@
       class="relative sm:ml-[65%] ml-[53%] sm:h-[650px] sm:w-[240px] w-[45%] h-[520px] sm:mt-[-4px] mt-[-2px]"
     />
 
-  <div class="">
+    <div class="">
       <div
         class="flex flex-col gap-2 sm:flex sm:flex-row sm:gap-20 m-[30px] sm:m-[50px] "
       >
-        <img
-          src="../assets/conseil.png"
-          alt=""
-          class="w-[400px] sm:w-[500px] "
-        />
+        <img src="../assets/solution.png" alt="" class="w-[400px] sm:w-[500px] " />
         <div class=" ">
           <p
             class=" text-[30px] sm:text-[32px] font-semibold sm:font-semibold  leading-loose"
           >
-            Assistance et conseil
+            Services informatiques
           </p>
           <div class="text-[15px] sm:text-[18px]">
             <p class=" sm:mr-[30px]">
-              Vous avez des difficultés dans votre entreprise ! Nous avons la
-              solution à vos problèmes ! <br />
-              <br />
-
-              A travers un diagnostic participatif, nous identifions avec vous
-              les causes réelles de vos difficultés et vous apportons grâce à un
-              programme choc, les solutions les plus adaptées. Ces solutions
-              peuvent être des études, des formations, des actions terrain, des
-              accompagnements, etc... <br />
-              <br />
-
-              Dans le cadre d'un partenariat sur le moyen terme, nous vous
-              accompagnons pour la mise en place d'un Système de Management de
-              la Qualité (SMQ). <br />
-              <br />
+              Vous voulez vous rendre visible ! <br> Vous voulez automatiser toutes
+              vos tâches ! <br>Vous voulez gagner du temps tout simplement Nous
+              avons pour vous, les solutions : <br />
+            </p>
+            <p>
+              <li class="ml-5 sm:ml-10">Réalisation de site web et dynamique;</li>
+              <li class="ml-5 sm:ml-10">Conception de logiciels, progiciels et autres applications;</li>
+              <li class="ml-5 sm:ml-10">Evaluation de site web;</li>
+              <li class="ml-5 sm:ml-10">Etc ...</li>
             </p>
           </div>
         </div>
       </div>
     </div>
-
   </section>
 </template>

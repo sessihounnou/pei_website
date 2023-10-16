@@ -31,5 +31,35 @@
       alt=""
       class="relative sm:ml-[65%] ml-[53%] sm:h-[650px] sm:w-[240px] w-[45%] h-[520px] sm:mt-[-4px] mt-[-2px]"
     />
+
+    <div class="">
+      <div
+        class="flex flex-col gap-2 sm:flex sm:flex-row sm:gap-20 m-[30px] sm:m-[50px] "
+      >
+        <img src="../assets/genie.png" alt="" class="w-[400px] sm:w-[500px] " />
+        <div class=" ">
+          <p
+            class=" text-[30px] sm:text-[32px] font-semibold sm:font-semibold  leading-loose"
+          >
+            Inginierie financiere
+          </p>
+          <div class="text-[15px] sm:text-[18px]">
+            <p class=" sm:mr-[30px]">
+              Avec nos experts, nous vous accompagnons dans vos projets
+              d'investissement, de mobilisation de financement et de gestion de
+              votre patrimoine : <br />
+              <br />
+            </p>
+            <p>
+              <li class="ml-5 sm:ml-10">Levées de fonds;</li>
+              <li class="ml-5 sm:ml-10">Placements boursiers;</li>
+              <li class="ml-5 sm:ml-10">Conseils en investissement;</li>
+              <li class="ml-5 sm:ml-10">Gestion de patrimoine;</li>
+              <li class="ml-5 sm:ml-10">Conseils en finances locales;</li>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 </template>

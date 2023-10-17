@@ -123,19 +123,24 @@ const router = createRouter({
       component: computerservices,
       meta: { layout: nav, public: true },
     },
-    /* {
+     {
       path: "/individual",
       name: "individual",
       component: individual,
       meta: { layout: nav, public: true },
-    },  */
-    /* {
+    },  
+     {
       path: "/privatesociety",
       name: "privatesociety",
       component: privatesociety,
       meta: { layout: nav, public: true },
-    }, */
+
+
+    }, 
+
+   
     
+
      {
       path: "/publicsociety",
       name: "publicsociety",
@@ -160,7 +165,7 @@ const router = createRouter({
       component: recrutements,
       meta: { layout: nav, public: true },
     },
-
+    
     // {
     //   path: "/about",
     //   name: "about",

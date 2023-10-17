@@ -84,39 +84,52 @@
         <div class="grid grid-cols-1 gap-8 lg:col-span-2 sm:grid-cols-2 lg:grid-cols-4">
           <div>
             <p class="font-medium text-blue-900">Company</p>
-            <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500 text-gray-900">
+            <nav class="flex flex-col mt-4 space-y-2 text-sm  text-gray-900">
+              <a class="hover:opacity-75" href="/ " > Accueil </a>
               <a class="hover:opacity-75" href="/about"> A propos </a>
-              <a class="hover:opacity-75" href="/contact"> Contact </a>
-              <a class="hover:opacity-75" href> Blog </a>
-              <a class="hover:opacity-75" href> Opportunité </a>
+              <a class="hover:opacity-75" href="/blog" > Blog </a>
             </nav>
           </div>
           <div>
             <p class="font-medium text-blue-900">Nos services</p>
-            <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500 text-gray-900">
-              <a class="hover:opacity-75" href="formation"> Formation</a>
+            <nav class="flex flex-col mt-4 space-y-2 text-sm  text-gray-900">
+              <a class="hover:opacity-75" href="/formation"> Formation</a>
               <a class="hover:opacity-75" href="/study"> Etudes et sondages</a>
-              <a class="hover:opacity-75" href="/engineering"> Ingénierie Financière </a>
-              <a class="hover:opacity-75" href="/externalization"> Externalisation</a>
+              <a class="hover:opacity-75" href="/engineering" > Ingénierie Financière </a>
+              <a class="hover:opacity-75" href="/externalization">
+                Externalisation</a>
             </nav>
           </div>
           <div>
             <p class="font-medium text-blue-900">Liens utile</p>
-            <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500 text-gray-900">
+            <nav class="flex flex-col mt-4 space-y-2 text-sm  text-gray-900">
               <a class="hover:opacity-75" href> Catalogue </a>
               <a class="hover:opacity-75" href> Evenements </a>
               <a class="hover:opacity-75" href> E-learning </a>
             </nav>
           </div>
-          <div>
-            <p class="font-medium text-blue-900">Legal</p>
-            <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500 text-gray-900">
-              <a class="hover:opacity-75" href>
-                Politique de confidentialité
-              </a>
-              <a class="hover:opacity-75" href> Termes &amp; Conditions </a>
-            </nav>
-          </div>
+          <div class="">
+              <p class="font-medium text-blue-900 sm:mt-0 mt-6">
+                Contacts
+              </p>
+              <nav
+                class="flex flex-col mt-4 space-y-3 sm:text-[14px]  "
+              >
+                <p class="text-gray-900">
+                  Cotonou st Michel, 557 <br />
+                  Rue Centre Paul 6
+                </p>
+                <p class="font-medium text-blue-900">Support</p>
+                <p class="text-gray-900">
+                  (229) 21 32 32 03 / <br />
+                  (229) 91 99 30 20
+                </p>
+                <p class="text-gray-900">
+                  RCCM: RB/COT/19 B 24897 <br />
+                  IFU:3201910850746
+                </p>
+              </nav>
+            </div>
         </div>
       </div>
       <div class="flex justify-center w-full mt-8 text-xs text-[gray-900] mx-auto">

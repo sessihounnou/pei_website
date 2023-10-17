@@ -30,6 +30,7 @@
               href="/">Accueil</a>
           </li>
           <li class="mr-3 mb-8 sm:mb-auto sm:mt-4">
+
             <a class="inline-block text-primary-base no-underline hover:text-primary-safe hover:text-underline py-2 px-4"
               @click="showNavContent()" href="about">A propos
             </a>

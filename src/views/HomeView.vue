@@ -56,7 +56,7 @@
           <!-- Contenu de la carte -->
           <div class="bg-white shadow-lg rounded-lg p-4">
             <img
-              :src="card.imageUrl"
+              :src="cards.imageUrl"
               alt="Card Image"
               class="w-full h-32 object-cover mb-4 rounded-t-lg"
             />

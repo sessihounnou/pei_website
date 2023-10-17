@@ -15,7 +15,7 @@
         </p>
         <div class="sm:ml-[200px] ml-8 mt-[15px] sm:mt-[70px]">
           <div
-            class="bg-[#0988E9] sm:h-[62px] h-[40px] sm:w-[20%] w-[110px] sm:ml-[0px] ml-[20px] sm:py-[10px] py-[7px] rounded-[10px]"
+            class="bg-[#0988E9] sm:h-[62px] h-[40px] sm:w-[23%] w-[130px] sm:ml-[0px] ml-[20px] sm:py-[10px] py-[7px] rounded-[10px]"
           >
             <div
               class="text-white text-center font-semibold sm:text-[24px] text-[15px]"
@@ -32,7 +32,7 @@
       class="relative sm:ml-[65%] ml-[53%] sm:h-[650px] sm:w-[240px] w-[45%] h-[520px] sm:mt-[-4px] mt-[-2px]"
     />
 
-    <div class="">
+    <div class=" sm:mt-[-45px] mt-[-115px]">
       <div
         class="flex flex-col gap-2 sm:flex sm:flex-row sm:gap-20 m-[30px] sm:m-[50px] "
       >

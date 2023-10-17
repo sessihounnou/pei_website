@@ -84,7 +84,7 @@ const router = createRouter({
       path: "/study",
       name: "study",
       component: study,
-      meta: { layout: nav, public: true },
+      meta : { layout: nav, public: true },
     },
     {
       path: "/externalization",
@@ -133,10 +133,8 @@ const router = createRouter({
       name: "privatesociety",
       component: privatesociety,
       meta: { layout: nav, public: true },
-<<<<<<< HEAD
     }, */
-=======
-    },
+    
      {
       path: "/publicsociety",
       name: "publicsociety",
@@ -155,7 +153,6 @@ const router = createRouter({
       component: particulary,
       meta: { layout: nav, public: true },
     },
->>>>>>> ac7ba730a317e6375f0e992acdccb5c051267e03
 
     // {
     //   path: "/about",

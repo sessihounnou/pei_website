@@ -58,7 +58,7 @@
             <a
               class="inline-block text-primary-base no-underline hover:text-primary-safe hover:text-underline py-2 px-4"
               @click="showNavContent()"
-              href="#"
+              href="/formation"
               >Nos formations
             </a>
           </li>

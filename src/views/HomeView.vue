@@ -46,30 +46,36 @@
       Tous savoir sur les services offerts.
     </p>
     <!-- debut du carousel -->
-    <div class="overflow-x-auto">
-      <div class="flex space-x-4">
-        <div
-          v-for="(card, index) in visibleCards"
-          :key="index"
-          class="w-[33.33%] p-3"
-        >
-          <!-- Contenu de la carte -->
-          <div class="bg-white shadow-lg rounded-lg p-4">
-            <img
-              :src="card.imageUrl"
-              alt="Card Image"
-              class="w-full h-44   object-cover mb-4 rounded-t-lg"
-            />
-            <h2 class="text-xl font-bold mb-2">{{ card.title }}</h2>
-            <p class="text-gray-600">{{ card.describe }}</p>
-             <a :href="card.liens" class="">
-                      <button
-                          class="sm:mt-[34px] mt-7 w-[31%] h-[40px] ml-[65%] sm:ml-[55%]  sm:w-[39%] text-[15px] sm:h-[40px]  hover:bg-[#1371B9] bg-[#008C36] rounded-[16px] text-white font-semibold ">En
-                          savoir plus   </button></a>
+   
+      <div class="hide-scrollbar-x carousel transition-1 transform  overflow-x-auto whitespace-no-wrap sm:block flex-col relative">
+         <img src="../assets/left.svg" alt="" id="left-arrow" class="cursor-pointer absolute w-5 top-1/2 left-4">
+          <img src="../assets/right.svg" alt="" id="right-arrow" class="cursor-pointer  absolute w-5 right-4 top-1/2">
+        <div class="flex space-x-4 slides " ref="carousel" >
+           
+          <div
+            v-for="(card, index) in visibleCards"
+            :key="index"
+            class="w-[33.33%] p-3 slide"  ref="carousel"
+          >
+        
+            <!-- Contenu de la carte -->
+            <div class="slide bg-white shadow-lg rounded-lg p-4">
+              <img
+                :src="card.imageUrl"
+                alt="Card Image"
+                class="w-full h-44   object-cover mb-4 rounded-t-lg"
+              />
+              <h2 class="text-xl font-bold mb-2">{{ card.title }}</h2>
+              <p class="text-gray-600">{{ card.describe }}</p>
+               <a :href="card.liens" class="">
+                        <button
+                            class="sm:mt-[34px] mt-7 w-[31%] h-[40px] ml-[65%] sm:ml-[55%]  sm:w-[39%] text-[15px] sm:h-[40px]  hover:bg-[#1371B9] bg-[#008C36] rounded-[16px] text-white font-semibold ">En
+                            savoir plus   </button></a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+  
     <!-- fin du carousel -->
 
     <div class="d1 sm:mt-10 mt-[20px] h-[2300px] sm:h-[1100px] bg-cover">
@@ -175,6 +181,7 @@
 <script>
 
 
+
 export default {
   name: "slide",
   setup() {},
@@ -239,19 +246,54 @@ export default {
           },
       ],
       visibleCards: [],
+       currentIndex: 0,
     };
   },
   mounted() {
     // Au moment du montage, affichez les trois premières cartes
     this.visibleCards = this.cards.slice(0,3);
+    const left = document.querySelector("#left-arrow")
+    const right = document.querySelector("#right-arrow")
+
+    left.addEventListener("click", this.nextSlide)
+    right.addEventListener("click", this.prevSlide)
   },
-};
+  methods: {
+    nextSlide() {
+      if (this.currentIndex < this.cards.length - 1) {
+        this.currentIndex++;
+      } else {
+        this.currentIndex = 0; // Revenir à la première diapositive lorsque vous atteignez la fin
+      }
+      this.visibleCards = this.cards.slice(this.currentIndex, this.currentIndex + 3);
+    },
+    prevSlide() {
+      if (this.currentIndex > 0) {
+        this.currentIndex--;
+      } else {
+        this.currentIndex = this.cards.length - 1; // Revenir à la première diapositive lorsque vous atteignez la fin
+      }
+       if (this.currentIndex >= 2) {
+        this.visibleCards = this.cards.slice(this.currentIndex - 2, this.currentIndex + 1);
+      } else if (this.currentIndex === 1) {
+        this.visibleCards = this.cards.slice(this.currentIndex - 1, this.currentIndex + 2);
+      } else {
+        // When this.currentIndex is 0, show the last two cards along with the first card
+        this.visibleCards = this.cards.slice(-2).concat(this.cards.slice(0, 1));
+      }
+    }
+}}
+
 </script>
 
 <style>
 .d1 {
     background-image: url("../assets/d1.png");
 
-   
 }
+
+.hide-scrollbar-x::-webkit-scrollbar {
+    display: none;
+}
+
 </style>

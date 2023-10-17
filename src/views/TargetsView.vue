@@ -45,7 +45,7 @@
           >
             SECTEUR PUBLIC
           </h1>
-          <a href="./secteur.html" class="">
+          <a href="./publicsociety" class="">
             <button
               class="mx-[40px] mt-[17%] px-[21%] sm:px-[80px] sm:py-2.5 py-2 hover:bg-[#F1C40F] hover:text-white hover:border-[#F1C40F] hover:border-2 sm:mx-8 hover:no-underline font-bold bg-white text-[#6A6B6C] sm:mr-2 border-2 rounded-l-[15px] rounded-br-[15px] border-[#008C36] sm:mt-12"
             >

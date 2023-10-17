@@ -84,7 +84,7 @@
           >
             SECTEUR PUBLIC
           </h1>
-          <a href="./secteur.html" class="">
+          <a href="./publicsociety" class="">
             <button
               class="mx-[40px] mt-[17%] px-[21%] sm:px-[80px] sm:py-2.5 py-2 hover:bg-[#F1C40F] hover:text-white hover:border-[#F1C40F] hover:border-2 sm:mx-8 hover:no-underline font-bold bg-white text-[#6A6B6C] sm:mr-2 border-2 rounded-l-[15px] rounded-br-[15px] border-[#008C36] sm:mt-12"
             >
@@ -101,7 +101,7 @@
           >
             SECTEUR PRIVE
           </h1>
-          <a href="./prive.html" class="">
+          <a href="./privatesociety" class="">
             <button
               class="mx-[10%] sm:mt-0 mt-[16%] py-2 mt-8 hover:bg-[#F1C40F] hover:text-white hover:border-[#F1C40F] hover:border-2 sm:mx-8 hover:no-underline font-bold bg-white text-[#6A6B6C] sm:mr-2 border-2 rounded-l-[15px] rounded-br-[15px] border-[#008C36] mt-4 sm:mt-12 sm:py-2.5 px-16 sm:px-[80px]"
             >
@@ -119,7 +119,7 @@
             INSTITUTIONS <br class="" />
             INTERNATIONALES
           </h1>
-          <a href="./institution.html" class="">
+          <a href="./institution" class="">
             <button
               class="mx-[10%] sm:mt-0 mt-[8%] py-2 hover:bg-[#F1C40F] hover:text-white hover:border-[#F1C40F] hover:border-2 sm:mx-8 hover:no-underline font-bold bg-white text-[#6A6B6C] sm:mr-2 border-2 rounded-l-[15px] rounded-br-[15px] border-[#008C36] mt-4 sm:mt-6 sm:py-2.5 px-16 sm:px-[80px]"
             >
@@ -139,7 +139,7 @@
             SOCIÉTÉ CIVILES NATIONALES <br class="" />
             ET INTERNATIONALES
           </h1>
-          <a href="./societe.html" class="">
+          <a href="./society" class="">
             <button
               class="mx-[10%] mt-[7%] py-2 hover:bg-[#F1C40F] hover:text-white hover:border-[#F1C40F] hover:border-2 sm:mx-8 hover:no-underline font-bold bg-white text-[#6A6B6C] sm:mr-2 border-2 rounded-l-[15px] rounded-br-[15px] border-[#008C36] sm:mt-6 sm:py-2.5 px-16 sm:px-[80px]"
             >
@@ -156,7 +156,7 @@
           >
             PARTICULIERS
           </h1>
-          <a href="./particulier.html" class="">
+          <a href="./particulary" class="">
             <button
               class="mx-[10%] sm:mt-0 mt-[16%] py-2 mt-8 hover:bg-[#F1C40F] hover:text-white hover:border-[#F1C40F] hover:border-2 sm:mx-8 hover:no-underline font-bold bg-white text-[#6A6B6C] sm:mr-2 border-2 rounded-l-[15px] rounded-br-[15px] border-[#008C36] mt-4 sm:mt-12 sm:py-2.5 px-16 sm:px-[80px]"
             >

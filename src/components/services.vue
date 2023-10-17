@@ -11,7 +11,7 @@
                     </div>
                 </div>
                 <h3 class="text-2xl sm:text-xl text-gray-700 font-semibold dark:text-white py-4">
-                    Formation 
+                    
                 </h3>
                 <p class="text-md  text-gray-500 dark:text-gray-300 py-4">
                    <button class="shadow-xl hover:shadow-md border-primary-base border-2 rounded-full px-4 py-2 hover:border-primary-safe "> En savoir + </button>

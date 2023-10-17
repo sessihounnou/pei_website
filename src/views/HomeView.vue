@@ -51,17 +51,21 @@
         <div
           v-for="(card, index) in visibleCards"
           :key="index"
-          class="w-[33.33%] p-4"
+          class="w-[33.33%] p-3"
         >
           <!-- Contenu de la carte -->
           <div class="bg-white shadow-lg rounded-lg p-4">
             <img
               :src="card.imageUrl"
               alt="Card Image"
-              class="w-full h-32 object-cover mb-4 rounded-t-lg"
+              class="w-full h-44   object-cover mb-4 rounded-t-lg"
             />
             <h2 class="text-xl font-bold mb-2">{{ card.title }}</h2>
             <p class="text-gray-600">{{ card.describe }}</p>
+             <a :href="card.liens" class="">
+                      <button
+                          class="sm:mt-[34px] mt-7 w-[31%] h-[40px] ml-[65%] sm:ml-[55%]  sm:w-[39%] text-[15px] sm:h-[40px]  hover:bg-[#1371B9] bg-[#008C36] rounded-[16px] text-white font-semibold ">En
+                          savoir plus   </button></a>
           </div>
         </div>
       </div>
@@ -180,7 +184,8 @@ export default {
           title: "Formation",
           describe:
             "Avec des méthodes andragogiques les plus adaptées aux adultes et des outils de formations. ",
-        },
+          liens: "/about",
+          },
         {
           imageUrl: "/src/assets/etude.png",
           title: "Etudes et Sondages",

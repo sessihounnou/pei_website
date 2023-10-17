@@ -184,57 +184,64 @@ export default {
           title: "Formation",
           describe:
             "Avec des méthodes andragogiques les plus adaptées aux adultes et des outils de formations. ",
-          liens: "/about",
+          liens: "/formation",
           },
         {
           imageUrl: "/src/assets/etude.png",
           title: "Etudes et Sondages",
           describe:
             " Boostez vos activités et garantissez-vous le succès à travers nos études et sondages en ........  ",
-        },
+         liens: "/study", 
+          },
         {
           imageUrl: "/src/assets/genie.png",
           title: "Ingenierie financière",
           describe:
             "Avec nos experts, nous vous accompagnons dans vos projets d’investissement, de mobilisation de ....... ",
-        },
+        liens: "/engineering",
+          },
         {
           imageUrl: "/src/assets/externe.png",
           title: "Externalisation",
           describe:
             "Parce que nous sommes des professionnels et forts de nos expériences, faites-nous confiance pour ....... ",
-        },
+            liens: "/externalization",
+          },
         {
           imageUrl: "/src/assets/audit.png",
           title: "Audit-Comptabilité",
           describe:
             "Nous offrons à nos clients en services ponctuels et/ou en accompagnement permanent ....... ",
-        },
+             liens: "/audit",
+          },
         {
           imageUrl: "/src/assets/gestion.png",
           title: "Recrutement et gestion d’intérims ",
           describe:
             "Parce que les Ressources Humaines constituent le capital le plus précieux de votre ....... ",
-        },
+             liens: "/recrutements",
+          },
         {
           imageUrl: "/src/assets/conseil.png",
           title: "Assistance et conseil",
           describe:
             "Vous avez des difficultés dans votre entreprise ! Nous avons la solution à vos problèmes .......",
-        },
+        liens: "/assistance",
+          },
         {
           imageUrl: "/src/assets/solution.png",
           title: "Solutions informatiques",
           describe:
             "Vous voulez vous rendre visibles ! Vous voulez automatiser toutes vos taches ....... ",
-        },
+         liens: "/computerservices",
+          },
       ],
       visibleCards: [],
     };
   },
   mounted() {
     // Au moment du montage, affichez les trois premières cartes
-    this.visibleCards = this.cards.slice(0, 3);
+    this.visibleCards = this.cards.slice(0,3);
   },
 };
 </script>

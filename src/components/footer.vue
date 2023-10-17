@@ -96,9 +96,8 @@
             <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500 text-gray-900">
               <a class="hover:opacity-75" href="formation"> Formation</a>
               <a class="hover:opacity-75" href="/study"> Etudes et sondages</a>
-              <a class="hover:opacity-75" href> Ingénierie Financière </a>
-              <a class="hover:opacity-75" href="/externalization">
-                Externalisation</a>
+              <a class="hover:opacity-75" href="/engineering"> Ingénierie Financière </a>
+              <a class="hover:opacity-75" href="/externalization"> Externalisation</a>
             </nav>
           </div>
           <div>

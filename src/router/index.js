@@ -18,6 +18,7 @@ import computerservices from "../views/ComputerservicesView.vue";
 import institution from "../views/InstitutionView.vue";
 import individual from "../views/IndividualView.vue";
 import privatesociety from "../views/PrivateView.vue";
+import recrutements from "../views/RecrutementsView.vue";
 
 import externalization from "../views/ExternalisationView.vue";
 import publicsociety from "../views/PublicView.vue";
@@ -151,6 +152,12 @@ const router = createRouter({
       path: "/particulary",
       name: "particulary",
       component: particulary,
+      meta: { layout: nav, public: true },
+    },
+    {
+      path: "/recrutements",
+      name: "recrutements",
+      component: recrutements,
       meta: { layout: nav, public: true },
     },
 

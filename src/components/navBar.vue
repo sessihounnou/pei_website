@@ -27,21 +27,21 @@
         <ul class="list-reset sm:flex justify-center flex-1 items-center">
           <li class="mr-3 mb-8 sm:mb-auto sm:mt-4">
             <a class="inline-block py-2 px-4 text-primary-base font-bold no-underline" @click="showNavContent()"
-              href="/about">A propos</a>
+              href="/">Accueil</a>
           </li>
           <li class="mr-3 mb-8 sm:mb-auto sm:mt-4">
             <a class="inline-block text-primary-base no-underline hover:text-primary-safe hover:text-underline py-2 px-4"
-              @click="showNavContent()" href="#">Nos formations
+              @click="showNavContent()" href="about">A propos
             </a>
           </li>
           <li class="mr-3 mb-8 sm:mb-auto sm:mt-4">
             <a class="inline-block text-primary-base no-underline hover:text-primary-safe hover:text-underline py-2 px-4"
-              @click="showNavContent()" href="/opportunity">Nos Opportunités
+              @click="showNavContent()" href="contact">Contacts
             </a>
           </li>
           <li class="mr-3 mb-8 sm:mb-auto sm:mt-4">
             <a class="inline-block text-primary-base no-underline hover:text-primary-safe hover:text-underline py-2 px-4"
-              @click="showNavContent()" href="contact">Contactez-nous
+              @click="showNavContent()" href="blog">Blog
             </a>
           </li>
         </ul>

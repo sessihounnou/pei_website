@@ -104,7 +104,6 @@
             <p class="font-medium text-blue-900">Liens utile</p>
             <nav class="flex flex-col mt-4 space-y-2 text-sm  text-gray-900">
               <a class="hover:opacity-75" href> Catalogue </a>
-              <a class="hover:opacity-75" href> Evenements </a>
               <a class="hover:opacity-75" href> E-learning </a>
             </nav>
           </div>

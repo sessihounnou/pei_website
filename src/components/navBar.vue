@@ -23,7 +23,7 @@
             </div>
 
             <div ref="menu"
-                class="w-full flex-grow sm:flex sm:items-center sm:w-auto h-screen sm:h-full my-[50%] mx-[20%] sm:m-auto sm:block sm:mt-0 sm:bg-white sm:bg-transparent text-black p-4 sm:p-0 z-20"
+                class="w-full flex-grow sm:flex sm:items-center sm:w-auto h-screen sm:h-full my-[50%] mx-[20%] sm:m-auto  sm:mt-0 sm:bg-white sm:bg-transparent text-black p-4 sm:p-0 z-20"
                 :class="menu ? '' : 'hidden'">
                 <ul class="list-reset sm:flex justify-center flex-1 items-center">
                     <li class="mr-3 mb-8 sm:mb-auto sm:mt-4">
@@ -48,7 +48,7 @@
                     </li>
                 </ul>
                 <button id="navAction"
-                    class="mx-auto hover:drop-shadow-md sm:mx-0 hover:no-underline bg-white text-primary-safe rounded-full mt-4 sm:mt-0 py-4 px-8 shadow">
+                    class="mx-auto hover:drop-shadow-md sm:mx-0 hover:no-underline bg-white text-primary-safe rounded-full mt-4 sm:mt-2 py-4 px-8 sm:mr-10 shadow">
                     Notre Catalogue
                 </button>
             </div>

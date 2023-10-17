@@ -173,6 +173,8 @@
   </section>
 </template>
 <script>
+
+
 export default {
   name: "slide",
   setup() {},

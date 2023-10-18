@@ -79,12 +79,14 @@
             </a>
           </li>
         </ul>
-        <button
+      <a href="../CATALOGUE DE FORMATION 2023.pdf" download class="">
+          <button
           id="navAction"
           class="mx-auto sm:mt-[2%] hover:drop-shadow-md sm:mx-0 hover:no-underline bg-white text-primary-safe rounded-full mt-4 sm:mt-0 py-4 px-8 shadow"
         >
           Notre Catalogue
         </button>
+      </a>
       </div>
     </div>
   </nav>

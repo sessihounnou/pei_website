@@ -14,22 +14,14 @@
           PLEIADE EXPERTISE INTERNATIONALE
         </p>
         <div class="sm:ml-[200px] ml-8 mt-[15px] sm:mt-[70px]">
-          <!--  <div
-                    class="bg-[#0988E9] sm:h-[62px] h-[40px]  sm:w-[23%] w-[110px] sm:ml-[0px] ml-[20px]  sm:py-[10px] py-[7px] rounded-[10px]">
+           <div
+                    class="bg-[#0988E9] sm:h-[62px] h-[40px]  sm:w-[20%] w-[110px] sm:ml-[0px] ml-[20px]  sm:py-[10px] py-[7px] rounded-[5px]">
                     <div class="text-white text-center font-semibold sm:text-[24px] text-[15px] ">
                         Assistance
                     </div>
 
-                </div> -->
-          <button
-            class="sm:h-[57px] h-[40px] sm:w-[190px] w-[110px] font-semibold hover:border-white hover:border-2 hover:bg-white hover:bg-opacity-0 bg-[#0988E9] text-white rounded-[18px]"
-          >
-            <a
-              href="./assistance.html"
-              class="text-white text-center font-semibold sm:text-[24px] text-[15px]"
-              >Assistance</a
-            >
-          </button>
+                </div>
+      
         </div>
       </div>
     </div>
@@ -38,7 +30,32 @@
       alt=""
       class="relative sm:ml-[65%] ml-[53%] sm:h-[650px] sm:w-[240px] w-[45%] h-[520px] sm:mt-[-4px] mt-[-2px]"
     />
-  
+  <div class=" sm:mt-[-45px] mt-[-115px]">
+        <div
+          class="flex flex-col gap-2 sm:flex sm:flex-row sm:gap-20 m-[30px] sm:m-[50px] "
+        >
+          <img
+            src="../assets/ass.png"
+            alt=""
+            class="w-[400px] sm:w-[500px] "
+          />
+          <div class=" ">
+            <p
+              class=" text-[30px] sm:text-[32px] font-semibold sm:font-semibold  leading-loose"
+            >
+            Assistance et conseil
+            </p>
+            <div class="text-[15px] sm:text-[18px]">
+              <p class=" sm:mr-[30px] text-gray-800 ">
+             Vous avez des difficultés dans votre entreprise ! Nous avons la solution à vos problèmes ! <br> <br>
+  A travers un diagnostic participatif, nous identifions avec vous les causes réelles de vos difficultés et vous apportons grâce à un programme choc, les solutions les plus adaptées. Ces solutions peuvent être des études, des formations, des actions terrain, des accompagnements, etc... <br> <br>
+  Dans le cadre d'un partenariat sur le moyen terme, nous vous accompagnons pour la mise en place d'un Système de Management de la Qualité (SMQ).
+              </p>
+             
+            </div>
+          </div>
+        </div>
+      </div>
   </section>
 </template>
 <script>

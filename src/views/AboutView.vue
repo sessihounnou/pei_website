@@ -12,7 +12,7 @@
               PLEIADE EXPERTISE INTERNATIONALE
             </p>
             <div
-              class="sm:mt-[120px] mt-10 bg-[#0988E9] rounded sm:w-[50%] h-[50px] mx-auto sm:h-[80px]"
+              class="sm:mt-[120px] mt-10 bg-[#0988E9] sm:w-[40%] h-[50px] mx-auto sm:h-[80px] rounded-[5px] "
             >
               <h1
                 class="text-white text-center sm:pt-5 pt-3 text-[16px] sm:text-2xl lg:text-3xl font-bold"

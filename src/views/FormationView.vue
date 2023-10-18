@@ -17,12 +17,12 @@
                     </p>
                 </div>
                 <img src="../assets/Vector2.png" alt=""
-                    class="sm:ml-[70px] ml-[-160px] sm:h-[870px] h-[550px] sm:mt-[-50px] mt-[-20px]">
+                    class="sm:ml-[70px] ml-[-160px] sm:h-[870px] h-[550px] sm:mt-[-50px]  mt-[-20px]">
 
             </div>
            
             <div
-                class="bg-[#0988E9] sm:h-[57px] h-[40px]  sm:w-[190px] w-[110px] sm:ml-[120px] ml-[20px]  sm:mt-[-300px] mt-[-180px] sm:py-[7px] py-[7px] rounded-[10px]">
+                class="bg-[#0988E9] sm:h-[57px] h-[40px]  sm:w-[190px] w-[110px] sm:ml-[120px] ml-[20px]  sm:mt-[-300px] mt-[-180px] sm:py-[7px] py-[7px] rounded-[5px]">
                 <div
                     class="text-white text-center font-semibold sm:text-[24px] text-[15px] ">
                    Formation  
@@ -34,10 +34,10 @@
         </div>
     </div>
     <div class="flex flex-col gap-2 sm:flex sm:flex-row sm:gap-20 m-[30px] sm:m-[50px] ">
-      <img src="../assets//image3.png" alt="" class="w-[400px] sm:w-[500px] ">
+      <img src="../assets//image3.png" alt="" class="w-[400px] rounded sm:w-[500px] ">
       <div class=" "> 
           <p class=" text-[30px] sm:text-[32px] font-black sm:font-black leading-loose">Formation </p>
-          <div class="text-[15px] sm:text-[18px]"> 
+          <div class="text-[15px] text-gray-800 sm:text-[18px]"> 
               <p class=" sm:mr-[30px]"> 
                   Avec des méthodes andragogiques les plus adaptées <br>
                   aux adultes et des outils de formations des plus <br>

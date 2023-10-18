@@ -15,7 +15,7 @@
         </p>
         <div class="sm:ml-[200px] ml-8 mt-[15px] sm:mt-[70px]">
           <div
-            class="bg-[#0988E9] sm:h-[62px] h-[40px] sm:w-[23%] w-[130px] sm:ml-[0px] ml-[20px] sm:py-[10px] py-[7px] rounded-[10px]"
+            class="bg-[#0988E9] sm:h-[62px] h-[40px] sm:w-[20%] w-[130px] sm:ml-[0px] ml-[20px] sm:py-[10px] py-[7px] rounded-[5px]"
           >
             <div
               class="text-white text-center font-semibold sm:text-[24px] text-[15px]"
@@ -37,9 +37,9 @@
         class="flex flex-col gap-2 sm:flex sm:flex-row sm:gap-20 m-[30px] sm:m-[50px] "
       >
         <img
-          src="../assets/externe.png"
+          src="../assets/ex.png"
           alt=""
-          class="w-[400px] sm:w-[500px] "
+          class="w-[400px] rounded sm:w-[500px] "
         />
         <div class=" ">
           <p
@@ -47,8 +47,8 @@
           >
             Externalisation
           </p>
-          <div class="text-[15px] sm:text-[18px]">
-            <p class=" sm:mr-[30px]">
+          <div class="text-[15px] text-gray-800 sm:text-[18px]">
+            <p class=" sm:mr-[30px] ">
               Parce que nous sommes des professionnels et forts de nos
               expériences, faites-nous confiance la gestion de différents
               processus de votre entreprise : <br />

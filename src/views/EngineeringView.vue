@@ -15,7 +15,7 @@
         </p>
         <div class="sm:ml-[200px] ml-8 mt-[15px] sm:mt-[70px]">
           <div
-            class="bg-[#0988E9] sm:h-[68px] h-[60px] sm:w-[25%] w-[130px] sm:ml-[0px] ml-[20px] sm:py-[10px] py-[7px] rounded-[10px]"
+            class="bg-[#0988E9] sm:h-[68px] h-[60px] sm:w-[25%] w-[130px] sm:ml-[0px] ml-[20px] sm:py-[13px] py-[7px] rounded-[5px]"
           >
             <div
               class="text-white text-center font-semibold sm:text-[24px] text-[15px]"
@@ -36,14 +36,14 @@
       <div
         class="flex flex-col gap-2 sm:flex sm:flex-row sm:gap-20 m-[30px] sm:m-[50px] "
       >
-        <img src="../assets/genie.png" alt="" class="w-[400px] sm:w-[500px] " />
+        <img src="../assets/phot.png" alt="" class="w-[400px] rounded sm:w-[500px] " />
         <div class=" ">
           <p
             class=" text-[30px] sm:text-[32px] font-semibold sm:font-semibold  leading-loose"
           >
             Inginierie financiere
           </p>
-          <div class="text-[15px] sm:text-[18px]">
+          <div class="text-[15px] text-gray-800 sm:text-[18px]">
             <p class=" sm:mr-[30px]">
               Avec nos experts, nous vous accompagnons dans vos projets
               d'investissement, de mobilisation de financement et de gestion de

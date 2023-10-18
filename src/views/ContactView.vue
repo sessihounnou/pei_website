@@ -11,10 +11,10 @@
           PLEIADE EXPERTISE INTERNATIONALE
         </p>
         <div
-          class="sm:mt-[120px] mt-14 bg-[#0988E9] h-[60px] rounded sm:w-[100%] sm:h-[80px]"
+          class="sm:mt-[120px] mt-14 bg-[#0988E9] h-[60px] rounded-[5px] sm:w-[90%] sm:h-[80px]"
         >
           <h1
-            class="text-white sm:pt-4 pt-3 text-xl sm:text-2xl lg:text-3xl font-bold"
+            class="text-white sm:pt-5 pt-3 text-xl sm:text-2xl lg:text-3xl font-bold"
           >
             Contactez-nous
           </h1>

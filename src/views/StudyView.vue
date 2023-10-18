@@ -23,7 +23,7 @@
             </div>
            
             <div
-                class="bg-[#0988E9] sm:h-[57px] h-[40px]  sm:w-[250px] w-[150px] sm:ml-[120px] ml-[20px]  sm:mt-[-300px] mt-[-180px] sm:py-[7px] py-[7px] rounded-[10px]">
+                class="bg-[#0988E9] sm:h-[57px] h-[40px]  sm:w-[250px] w-[150px] sm:ml-[120px] ml-[20px]  sm:mt-[-300px] mt-[-180px] sm:py-[7px] py-[7px] rounded-[5px]">
                 <div
                     class="text-white text-center font-semibold sm:text-[24px] text-[15px] ">
                    Etudes et Sondages  
@@ -34,10 +34,10 @@
         </div>
     </div>
     <div class="flex flex-col gap-2 sm:flex sm:flex-row sm:gap-20 m-[30px] sm:m-[120px]">
-      <img src="../assets/image4.png" alt="" class="w-[400px] sm:w-[500px] ">
+      <img src="../assets/image4.png" alt="" class="w-[400px] rounded sm:w-[500px] ">
       <div class=" "> 
           <p class=" text-[30px] sm:text-[32px] font-semibold sm:font-semibold  leading-loose">Etudes et Sondages </p>
-          <div class="text-[15px] sm:text-[18px]"> 
+          <div class="text-[15px] text-gray-800 sm:text-[18px]"> 
               <p class=" sm:mr-[30px]"> 
                   Boostez vos activités et garantissez-vous le succès <br>
                   à travers nos études et sondages en : 

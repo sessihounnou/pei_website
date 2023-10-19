@@ -11,7 +11,7 @@
           RECRUTEMENT, EXTERNALISATION & SOLUTIONS INFORMATIQUES
         </p>
         <p
-          class="text-white sm:text-[14px] text-[18px] sm:mt-[4%] sm:text-[18px] ml-8 mt-6 sm:ml-[200px]"
+          class="text-white text-[18px] sm:mt-[4%] sm:text-[18px] ml-8 mt-6 sm:ml-[200px]"
         >
           PLEIADE EXPERTISE INTERNATIONALE
         </p>
@@ -48,9 +48,9 @@
   <div class="">
     <!-- debut du carousel ordi -->
    
-        <div class=" sm:block hidden  hide-scrollbar-x carousel transition-1 transform  overflow-x-auto whitespace-no-wrap  relative">
-           <img src="../assets/left.svg" alt="" id="left-arrow" class="cursor-pointer absolute w-5 top-1/2 left-4">
-            <img src="../assets/right.svg" alt="" id="right-arrow" class="cursor-pointer  absolute w-5 right-4 top-1/2">
+        <div @mouseenter="hovered = true" @mouseleave="hovered = false" class=" sm:block hidden transition-transform duration-1000  hide-scrollbar-x carousel transition-1 transform  overflow-x-auto whitespace-no-wrap  relative">
+           <img src="../assets/left.svg" alt="" id="left-arrow"  v-show="hovered" class="cursor-pointer transform -translate-y-1/2 absolute w-5 top-1/2 left-4">
+            <img src="../assets/right.svg" alt="" id="right-arrow"   v-show="hovered" class="cursor-pointer transform -translate-y-1/2 absolute w-5 right-4 top-1/2">
           <div class="flex sm:space-x-4 slides " ref="carousel" >
            
             <div
@@ -60,7 +60,7 @@
             >
         
               <!-- Contenu de la carte -->
-              <div class=" bg-white shadow-lg rounded-lg p-4">
+              <div class="  bg-white shadow-lg rounded-lg p-4">
                 <img
                   :src="card.imageUrl"
                   alt="Card Image"
@@ -282,7 +282,15 @@ export default {
       ],
       visibleCards: [],
        currentIndex: 0,
+       hovered: false,
     };
+  },
+
+   computed: {
+    carouselStyle() {
+      const translateX = -this.currentIndex * (100 / this.visibleCards.length) + "%";
+      return { transform: `translateX(${translateX})` };
+    },
   },
   mounted() {
     // Au moment du montage, affichez les trois premières cartes

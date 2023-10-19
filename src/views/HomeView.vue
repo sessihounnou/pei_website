@@ -48,7 +48,7 @@
   <div class="">
     <!-- debut du carousel ordi -->
    
-        <div @mouseenter="hovered = true" @mouseleave="hovered = false" class=" sm:block hidden transition-transform duration-1000  hide-scrollbar-x carousel transition-1 transform  overflow-x-auto whitespace-no-wrap  relative">
+        <div @mouseenter="hovered = true" @mouseleave="hovered = false" class="sm:block hidden transition-transform duration-1000  hide-scrollbar-x carousel transition-1 transform  overflow-x-auto whitespace-no-wrap  relative">
            <img src="../assets/left.svg" alt="" id="left-arrow"  v-show="hovered" class="cursor-pointer transform -translate-y-1/2 absolute w-5 top-1/2 left-4">
             <img src="../assets/right.svg" alt="" id="right-arrow"   v-show="hovered" class="cursor-pointer transform -translate-y-1/2 absolute w-5 right-4 top-1/2">
           <div class="flex sm:space-x-4 slides " ref="carousel" >
@@ -92,7 +92,7 @@
               class="sm:w-[33.33%] sm:p-3 slide"  ref="carousel"
             >
         
-              <!-- Contenu de la carte -->
+              
               <div class=" bg-white shadow-lg rounded-lg p-4">
                 <img
                   :src="card.imageUrl"
@@ -283,11 +283,13 @@ export default {
       visibleCards: [],
        currentIndex: 0,
        hovered: false,
+             isMobile: false, 
     };
   },
 
    computed: {
     carouselStyle() {
+      const cardWidth = this.isMobile ? 100 : 33.33; 
       const translateX = -this.currentIndex * (100 / this.visibleCards.length) + "%";
       return { transform: `translateX(${translateX})` };
     },
@@ -301,6 +303,8 @@ export default {
     left.addEventListener("click", this.nextSlide)
     right.addEventListener("click", this.prevSlide)
   },
+
+  // boutton
   methods: {
     nextSlide() {
       if (this.currentIndex < this.cards.length - 1) {
@@ -326,6 +330,38 @@ export default {
       }
     }
 },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   name: "slide",
   setup() { },
   data() {
@@ -394,7 +430,7 @@ export default {
   },
   mounted() {
     // Au moment du montage, affichez les trois premières cartes
-    this.visibleCards = this.cards.slice(0, 3);
+    this.visibleCards = this.cards.slice(0, 1);
     const left = document.querySelector("#left-arrow")
     const right = document.querySelector("#right-arrow")
 

@@ -19,7 +19,7 @@ import institution from "../views/InstitutionView.vue";
 import individual from "../views/IndividualView.vue";
 import privatesociety from "../views/PrivateView.vue";
 import recrutements from "../views/RecrutementsView.vue";
-
+import carousel_mobile from "../components/carousel_mobile.vue";
 import externalization from "../views/ExternalisationView.vue";
 import publicsociety from "../views/PublicView.vue";
 import society from "../views/SocietyView.vue";
@@ -133,6 +133,14 @@ const router = createRouter({
       path: "/privatesociety",
       name: "privatesociety",
       component: privatesociety,
+      meta: { layout: nav, public: true },
+
+
+    }, 
+ {
+      path: "/carousel_mobile",
+      name: "carousel_mobile",
+      component: carousel_mobile,
       meta: { layout: nav, public: true },
 
 

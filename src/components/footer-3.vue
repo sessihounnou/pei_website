@@ -4,7 +4,7 @@
       <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
         <div class="sm:ml-[10%] ml-[30%]">
           <img
-            src="../Images/im2.png"
+            src="../assets/im2.png"
             class="mr-9 h-6 sm:h-[25%] h-[50%]"
             alt="logo"
           />

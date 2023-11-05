@@ -1,7 +1,7 @@
 <template>
   <nav
     id="header"
-    class="bg-white fixed w-full z-30 top-0 text-white drop-shadow-md scroll-auto"
+    class="bg-white fixed w-full z-30 top-0 text-white drop-shadow-md scroll-auto py-4"
   >
     <div
       class="text-[90%] w-full container mx-auto flex flex-wrap justify-start mt-0 py-2"
@@ -74,19 +74,19 @@
             <a
               class="inline-block text-primary-base no-underline hover:text-primary-safe hover:text-underline py-2 px-4"
               @click="showNavContent()"
-              href="blog"
+              href="https://blog.pleiadexpertise.com"
               >Blog
             </a>
           </li>
         </ul>
-      <a href="../CATALOGUE DE FORMATION 2023.pdf" download class="">
+        <a href="https://catalogue.pleiadexpertise.com" download class="">
           <button
-          id="navAction"
-          class="mx-auto sm:mt-[2%] hover:drop-shadow-md sm:mx-0 hover:no-underline bg-white text-primary-safe rounded-full mt-4 sm:mt-0 py-4 px-8 shadow"
-        >
-          Notre Catalogue
-        </button>
-      </a>
+            id="navAction"
+            class="mx-auto sm:mt-[5%] hover:drop-shadow-md sm:mx-0 hover:no-underline bg-white text-primary-safe rounded-full mt-4 sm:mt-0 py-4 px-8 shadow"
+          >
+            Notre Catalogue
+          </button>
+        </a>
       </div>
     </div>
   </nav>

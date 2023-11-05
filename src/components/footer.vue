@@ -1,22 +1,34 @@
 <template>
-  <footer class="bg-gray-100">
+  <footer class="bg-gray-100 border-primary-soft border-t-2">
     <div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
         <div>
-          <a href="/" class="">          <img src="../assets/logo.svg" class="mr-5 h-6 sm:h-9" alt="logo" />
-  </a>
+          <a href="/" class="">
+            <img src="../assets/logo.svg" class="mr-5 h-6 sm:h-9" alt="logo" />
+          </a>
           <p class="max-w-xs mt-4 text-sm text-gray-900">
             Nous couvrons tous vos besoins : formation, conseil, études,
             recrutement, externalisation et solutions IT.
           </p>
           <div class="flex mt-8 space-x-6 text-gray-900">
-            <a class="hover:opacity-75" href="https://www.facebook.com/profile.php?id=100093218177098" target="_blank"
-              rel="noreferrer">
+            <a
+              class="hover:opacity-75"
+              href="https://www.facebook.com/profile.php?id=100093218177098"
+              target="_blank"
+              rel="noreferrer"
+            >
               <span class="sr-only"> Facebook </span>
-              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path fillRule="evenodd"
+              <svg
+                class="w-6 h-6"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path
+                  fillRule="evenodd"
                   d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
-                  clipRule="evenodd" />
+                  clipRule="evenodd"
+                />
               </svg>
             </a>
             <!-- <a class="hover:opacity-75" href target="_blank" rel="noreferrer">
@@ -62,81 +74,114 @@
                 />
               </svg>
             </a> -->
-            <a class="hover:opacity-75" href="https://pleiadexpertise.com/" target="_blank" rel="noreferrer">
+            <a
+              class="hover:opacity-75"
+              href="https://pleiadexpertise.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <span class="sr-only"> Internet </span>
-              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path fillRule="evenodd"
+              <svg
+                class="w-6 h-6"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path
+                  fillRule="evenodd"
                   d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
-                  clipRule="evenodd" />
+                  clipRule="evenodd"
+                />
               </svg>
             </a>
-            <a class="hover:opacity-75" href="cabinet.pleiade@gmail.com" target="_blank" rel="noreferrer">
-              <svg xmlns="http://www.w3.org/2000/svg" class="rounded-full  " width="24" height="24" viewBox="0 0 24 24">
+            <a
+              class="hover:opacity-75"
+              href="cabinet.pleiade@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="rounded-full"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
                 <path
-                  d="M20 2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 18H4V8l8 5 8-5v12z" />
+                  d="M20 2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 18H4V8l8 5 8-5v12z"
+                />
                 <path d="M0 0h24v24H0z" fill="none" />
               </svg>
             </a>
-
-
-
           </div>
         </div>
-        <div class="grid grid-cols-1 gap-8 lg:col-span-2 sm:grid-cols-2 lg:grid-cols-4">
+        <div
+          class="grid grid-cols-1 gap-8 lg:col-span-2 sm:grid-cols-2 lg:grid-cols-4"
+        >
           <div>
             <p class="font-medium text-blue-900">Company</p>
-            <nav class="flex flex-col mt-4 space-y-2 text-sm  text-gray-900">
-              <a class="hover:opacity-75" href="/ " > Accueil </a>
+            <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-900">
+              <a class="hover:opacity-75" href="/ "> Accueil </a>
               <a class="hover:opacity-75" href="/about"> A propos </a>
-              <a class="hover:opacity-75" href="/blog" > Blog </a>
+              <a class="hover:opacity-75" href="/blog"> Blog </a>
             </nav>
           </div>
           <div>
             <p class="font-medium text-blue-900">Nos services</p>
-            <nav class="flex flex-col mt-4 space-y-2 text-sm  text-gray-900">
+            <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-900">
               <a class="hover:opacity-75" href="/formation"> Formation</a>
               <a class="hover:opacity-75" href="/study"> Etudes et sondages</a>
-              <a class="hover:opacity-75" href="/engineering" > Ingénierie Financière </a>
+              <a class="hover:opacity-75" href="/engineering">
+                Ingénierie Financière
+              </a>
               <a class="hover:opacity-75" href="/externalization">
-                Externalisation</a>
+                Externalisation</a
+              >
             </nav>
           </div>
           <div>
             <p class="font-medium text-blue-900">Liens utile</p>
-            <nav class="flex flex-col mt-4 space-y-2 text-sm  text-gray-900">
-              <a class="hover:opacity-75" href="../CATALOGUE DE FORMATION 2023.pdf" download > Catalogue </a>
-              <a class="hover:opacity-75" href="../E-learning-sites" download > E-learning </a>
+            <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-900">
+              <a
+                class="hover:opacity-75"
+                href="../CATALOGUE DE FORMATION 2023.pdf"
+                download
+              >
+                Catalogue
+              </a>
+              <a class="hover:opacity-75" href="../E-learning-sites" download>
+                E-learning
+              </a>
             </nav>
           </div>
           <div class="">
-              <p class="font-medium text-blue-900 sm:mt-0 mt-6">
-                Contacts
+            <p class="font-medium text-blue-900 sm:mt-0 mt-6">Contacts</p>
+            <nav class="flex flex-col mt-4 space-y-3 sm:text-[14px]">
+              <p class="text-gray-900">
+                Cotonou st Michel, 557 <br />
+                Rue Centre Paul 6
               </p>
-              <nav
-                class="flex flex-col mt-4 space-y-3 sm:text-[14px]  "
-              >
-                <p class="text-gray-900">
-                  Cotonou st Michel, 557 <br />
-                  Rue Centre Paul 6
-                </p>
-                <p class="font-medium text-blue-900">Support</p>
-                <p class="text-gray-900">
-                  (229) 21 32 32 03 / <br />
-                  (229) 91 99 30 20
-                </p>
-                <p class="text-gray-900">
-                  RCCM: RB/COT/19 B 24897 <br />
-                  IFU:3201910850746
-                </p>
-              </nav>
-            </div>
+              <p class="font-medium text-blue-900">Support</p>
+              <p class="text-gray-900">
+                (229) 21 32 32 03 / <br />
+                (229) 91 99 30 20
+              </p>
+              <p class="text-gray-900">
+                RCCM: RB/COT/19 B 24897 <br />
+                IFU:3201910850746
+              </p>
+            </nav>
+          </div>
         </div>
       </div>
-      <div class="flex justify-center w-full mt-8 text-xs text-[gray-900] mx-auto">
+      <div
+        class="flex justify-center w-full mt-8 text-xs text-[gray-900] mx-auto"
+      >
         © 2023 Pleiadexpertise par
         <span class="ml-[0.3%] cursor-pointer">
           <a class="text-[#3b82f6]" href="https://biristechnologie.com">
-            biristechnologie</a>.Tous droits réservés.
+            biristechnologie</a
+          >.Tous droits réservés.
         </span>
       </div>
     </div>
@@ -146,6 +191,6 @@
 <script>
 export default {
   name: "footer",
-  setup() { },
+  setup() {},
 };
 </script>
